@@ -1,0 +1,2213 @@
+0 HEAD
+1 SOUR FamilyTreeASOIAF
+2 NAME ASOIAF Family Tree
+1 GEDC
+2 VERS 5.5.1
+1 CHAR UTF-8
+1 NOTE A Song of Ice and Fire / Game of Thrones family tree
+
+0 @I0001@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aegon I Targaryen, "the Conqueror." First King of the Seven Kingdoms.
+1 FAMS @F0001@
+1 FAMS @F0002@
+
+0 @I0002@ INDI
+1 NAME Visenya /Targaryen/
+2 GIVN Visenya
+2 SURN Targaryen
+1 SEX F
+1 NOTE Sister-wife of Aegon the Conqueror. Rider of Vhagar.
+1 FAMS @F0001@
+
+0 @I0003@ INDI
+1 NAME Rhaenys /Targaryen/
+2 GIVN Rhaenys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Sister-wife of Aegon the Conqueror. Rider of Meraxes.
+1 FAMS @F0002@
+
+0 @I0004@ INDI
+1 NAME Maegor /Targaryen/
+2 GIVN Maegor
+2 SURN Targaryen
+1 SEX M
+1 NOTE Maegor I Targaryen, "the Cruel." Son of Aegon I and Visenya.
+1 FAMC @F0001@
+
+0 @I0005@ INDI
+1 NAME Aenys /Targaryen/
+2 GIVN Aenys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aenys I Targaryen. Son of Aegon I and Rhaenys.
+1 FAMC @F0002@
+1 FAMS @F0003@
+
+0 @I0006@ INDI
+1 NAME Alyssa /Velaryon/
+2 GIVN Alyssa
+2 SURN Velaryon
+1 SEX F
+1 NOTE Wife of Aenys I Targaryen.
+1 FAMS @F0003@
+
+0 @I0007@ INDI
+1 NAME Jaehaerys /Targaryen/
+2 GIVN Jaehaerys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Jaehaerys I Targaryen, "the Conciliator" or "the Old King." Son of Aenys I.
+1 FAMC @F0003@
+1 FAMS @F0004@
+
+0 @I0008@ INDI
+1 NAME Alysanne /Targaryen/
+2 GIVN Alysanne
+2 SURN Targaryen
+1 SEX F
+1 NOTE "Good Queen Alysanne." Sister-wife of Jaehaerys I.
+1 FAMC @F0003@
+1 FAMS @F0004@
+
+0 @I0009@ INDI
+1 NAME Viserys /Targaryen/
+2 GIVN Viserys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Viserys I Targaryen. Grandson of Jaehaerys I. Central figure of House of the Dragon.
+1 FAMC @F0005@
+1 FAMS @F0006@
+1 FAMS @F0007@
+
+0 @I0010@ INDI
+1 NAME Daemon /Targaryen/
+2 GIVN Daemon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Daemon Targaryen. Brother of Viserys I. Rider of Caraxes. Married Rhaenyra.
+1 FAMC @F0005@
+1 FAMS @F0009@
+1 FAMS @F0010@
+
+0 @I0011@ INDI
+1 NAME Aemma /Arryn/
+2 GIVN Aemma
+2 SURN Arryn
+1 SEX F
+1 NOTE First wife of Viserys I. Daughter of Lord Rodrik Arryn.
+1 FAMS @F0006@
+
+0 @I0012@ INDI
+1 NAME Alicent /Hightower/
+2 GIVN Alicent
+2 SURN Hightower
+1 SEX F
+1 NOTE Second wife of Viserys I. Daughter of Ser Otto Hightower, the Hand of the King.
+1 FAMS @F0007@
+
+0 @I0013@ INDI
+1 NAME Rhaenyra /Targaryen/
+2 GIVN Rhaenyra
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Rhaenyra Targaryen, "the Realm's Delight." First named heir by Viserys I.
+1 FAMC @F0006@
+1 FAMS @F0008@
+1 FAMS @F0010@
+
+0 @I0014@ INDI
+1 NAME Laenor /Velaryon/
+2 GIVN Laenor
+2 SURN Velaryon
+1 SEX M
+1 NOTE Ser Laenor Velaryon. First husband of Rhaenyra.
+1 FAMS @F0008@
+
+0 @I0015@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aegon II Targaryen. Eldest son of Viserys I and Alicent. Won the Dance of Dragons.
+1 FAMC @F0007@
+1 FAMS @F0011@
+
+0 @I0016@ INDI
+1 NAME Helaena /Targaryen/
+2 GIVN Helaena
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Helaena Targaryen. Daughter of Viserys I and Alicent. Wife of Aegon II.
+1 FAMC @F0007@
+1 FAMS @F0011@
+
+0 @I0017@ INDI
+1 NAME Aemond /Targaryen/
+2 GIVN Aemond
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aemond Targaryen, "One-Eye." Son of Viserys I and Alicent. Rider of Vhagar.
+1 FAMC @F0007@
+
+0 @I0018@ INDI
+1 NAME Daeron /Targaryen/
+2 GIVN Daeron
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Daeron Targaryen, "the Daring." Youngest son of Viserys I and Alicent.
+1 FAMC @F0007@
+
+0 @I0019@ INDI
+1 NAME Laena /Velaryon/
+2 GIVN Laena
+2 SURN Velaryon
+1 SEX F
+1 NOTE Lady Laena Velaryon. First wife of Daemon Targaryen. Rider of Vhagar. Sister of Laenor.
+1 FAMS @F0009@
+
+0 @I0020@ INDI
+1 NAME Jacaerys /Velaryon/
+2 GIVN Jacaerys
+2 SURN Velaryon
+1 SEX M
+1 NOTE Prince Jacaerys Velaryon. Eldest son of Rhaenyra (officially Laenor's, father disputed).
+1 FAMC @F0008@
+
+0 @I0021@ INDI
+1 NAME Lucerys /Velaryon/
+2 GIVN Lucerys
+2 SURN Velaryon
+1 SEX M
+1 NOTE Prince Lucerys Velaryon. Second son of Rhaenyra. Killed by Aemond over Shipbreaker Bay.
+1 FAMC @F0008@
+
+0 @I0022@ INDI
+1 NAME Joffrey /Velaryon/
+2 GIVN Joffrey
+2 SURN Velaryon
+1 SEX M
+1 NOTE Prince Joffrey Velaryon. Third son of Rhaenyra (officially Laenor's).
+1 FAMC @F0008@
+
+0 @I0023@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aegon Targaryen "the Younger." Son of Rhaenyra and Daemon. Later Aegon III.
+1 FAMC @F0010@
+
+0 @I0024@ INDI
+1 NAME Viserys /Targaryen/
+2 GIVN Viserys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Viserys Targaryen. Son of Rhaenyra and Daemon. Later Viserys II.
+1 FAMC @F0010@
+
+0 @I0025@ INDI
+1 NAME Baela /Targaryen/
+2 GIVN Baela
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Baela Targaryen. Daughter of Daemon and Laena Velaryon.
+1 FAMC @F0009@
+
+0 @I0026@ INDI
+1 NAME Rhaena /Targaryen/
+2 GIVN Rhaena
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Rhaena Targaryen. Daughter of Daemon and Laena Velaryon.
+1 FAMC @F0009@
+
+0 @I0027@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aegon V Targaryen, "Egg." Grandson of Daeron II, son of Maekar I. Fought for common folk. Grandfather of Aerys II.
+1 FAMC @F0013@
+1 FAMS @F0012@
+
+0 @I0028@ INDI
+1 NAME Betha /Blackwood/
+2 GIVN Betha
+2 SURN Blackwood
+1 SEX F
+1 NOTE Betha Blackwood, "Black Betha." Wife of Aegon V.
+1 FAMS @F0012@
+
+0 @I0029@ INDI
+1 NAME Aemon /Targaryen/
+2 GIVN Aemon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Maester Aemon Targaryen. Son of Maekar I, uncle of Aegon V. Served Night's Watch for decades.
+1 FAMC @F0013@
+
+0 @I0030@ INDI
+1 NAME Maekar /Targaryen/
+2 GIVN Maekar
+2 SURN Targaryen
+1 SEX M
+1 NOTE Maekar I Targaryen. Son of Daeron II. Father of Aemon and Aegon V (Egg).
+1 FAMS @F0013@
+
+0 @I0031@ INDI
+1 NAME Dyanna /Dayne/
+2 GIVN Dyanna
+2 SURN Dayne
+1 SEX F
+1 NOTE Lady Dyanna Dayne. Wife of Maekar I Targaryen.
+1 FAMS @F0013@
+
+0 @I0032@ INDI
+1 NAME Duncan /Targaryen/
+2 GIVN Duncan
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Duncan Targaryen, "the Small." Son of Aegon V. Married Jenny of Oldstones and renounced succession.
+1 FAMC @F0012@
+
+0 @I0033@ INDI
+1 NAME Jaehaerys /Targaryen/
+2 GIVN Jaehaerys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Jaehaerys II Targaryen. Son of Aegon V and Betha Blackwood. Father of Aerys II.
+1 FAMC @F0012@
+1 FAMS @F0014@
+
+0 @I0034@ INDI
+1 NAME Shaera /Targaryen/
+2 GIVN Shaera
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Shaera Targaryen. Sister-wife of Jaehaerys II. Daughter of Aegon V.
+1 FAMC @F0012@
+1 FAMS @F0014@
+
+0 @I0035@ INDI
+1 NAME Rhaelle /Targaryen/
+2 GIVN Rhaelle
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Rhaelle Targaryen. Daughter of Aegon V. Married Ormund Baratheon; grandmother of Robert, Stannis, and Renly.
+1 FAMC @F0012@
+1 FAMS @F0090@
+
+0 @I0036@ INDI
+1 NAME Daeron /Targaryen/
+2 GIVN Daeron
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Daeron Targaryen. Son of Aegon V. Died young.
+1 FAMC @F0012@
+
+0 @I0037@ INDI
+1 NAME Aerys /Targaryen/
+2 GIVN Aerys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aerys II Targaryen, "the Mad King." Son of Jaehaerys II. Last Targaryen king before Robert's Rebellion.
+1 FAMC @F0014@
+1 FAMS @F0015@
+
+0 @I0038@ INDI
+1 NAME Rhaella /Targaryen/
+2 GIVN Rhaella
+2 SURN Targaryen
+1 SEX F
+1 NOTE Queen Rhaella Targaryen. Sister-wife of Aerys II. Daughter of Jaehaerys II.
+1 FAMC @F0014@
+1 FAMS @F0015@
+
+0 @I0039@ INDI
+1 NAME Rhaegar /Targaryen/
+2 GIVN Rhaegar
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Rhaegar Targaryen. Son of Aerys II. Rider of Balerion's line. Eloped with Lyanna Stark. Killed by Robert Baratheon at the Trident.
+1 FAMC @F0015@
+1 FAMS @F0016@
+1 FAMS @F0017@
+
+0 @I0040@ INDI
+1 NAME Viserys /Targaryen/
+2 GIVN Viserys
+2 SURN Targaryen
+1 SEX M
+1 NOTE Viserys III Targaryen. Son of Aerys II. Sold Daenerys to Khal Drogo. Killed by Drogo with "a golden crown."
+1 FAMC @F0015@
+
+0 @I0041@ INDI
+1 NAME Daenerys /Targaryen/
+2 GIVN Daenerys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Daenerys Targaryen, "Daenerys Stormborn," "Mother of Dragons," "Breaker of Chains." Born on Dragonstone during a storm. Last of her line (officially). Queen of Meereen, claimant to the Iron Throne.
+1 FAMC @F0015@
+1 FAMS @F0018@
+1 FAMS @F0019@
+
+0 @I0042@ INDI
+1 NAME Elia /Martell/
+2 GIVN Elia
+2 SURN Martell
+1 SEX F
+1 NOTE Princess Elia Martell of Dorne. First wife of Rhaegar Targaryen. Killed during the sack of King's Landing by Ser Gregor Clegane.
+1 FAMS @F0016@
+1 FAMC @F0100@
+
+0 @I0043@ INDI
+1 NAME Rhaenys /Targaryen/
+2 GIVN Rhaenys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Rhaenys Targaryen. Daughter of Rhaegar and Elia. Killed during the sack of King's Landing.
+1 FAMC @F0016@
+
+0 @I0044@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aegon Targaryen. Son of Rhaegar and Elia. Killed as an infant during the sack of King's Landing.
+1 FAMC @F0016@
+
+0 @I0045@ INDI
+1 NAME Lyanna /Stark/
+2 GIVN Lyanna
+2 SURN Stark
+1 SEX F
+1 NOTE Lady Lyanna Stark. Sister of Ned Stark. Secretly married Rhaegar Targaryen. Died giving birth to Jon Snow (Aegon Targaryen VI) at the Tower of Joy.
+1 FAMC @F0050@
+1 FAMS @F0017@
+
+0 @I0046@ INDI
+1 NAME Aegon (Jon Snow) /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Born Aegon Targaryen VI, son of Rhaegar and Lyanna. Raised as Jon Snow, the bastard of Ned Stark. Lord Commander of the Night's Watch. King in the North. Nephew of Daenerys.
+1 FAMC @F0017@
+
+0 @I0047@ INDI
+1 NAME Khal /Drogo/
+2 GIVN Khal
+2 SURN Drogo
+1 SEX M
+1 NOTE Khal Drogo of the Dothraki. First husband of Daenerys Targaryen. Khal of a great khalasar. Died from an infected wound.
+1 FAMS @F0018@
+
+0 @I0048@ INDI
+1 NAME Rhaego /Targaryen/
+2 GIVN Rhaego
+2 SURN Targaryen
+1 SEX M
+1 NOTE Stillborn son of Daenerys and Khal Drogo. His life was traded by Mirri Maz Duur for Drogo's.
+1 FAMC @F0018@
+
+0 @I0049@ INDI
+1 NAME Hizdahr /zo Loraq/
+2 GIVN Hizdahr
+2 SURN zo Loraq
+1 SEX M
+1 NOTE Hizdahr zo Loraq. A Great Master of Meereen. Second husband of Daenerys.
+1 FAMS @F0019@
+
+0 @I0050@ INDI
+1 NAME Baelon /Targaryen/
+2 GIVN Baelon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Baelon Targaryen, "the Brave." Son of Jaehaerys I. Father of Viserys I and Daemon.
+1 FAMC @F0004@
+1 FAMS @F0005@
+
+0 @I0051@ INDI
+1 NAME Alyssa /Targaryen/
+2 GIVN Alyssa
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Alyssa Targaryen. Daughter of Jaehaerys I. Wife of Baelon (her brother). Mother of Viserys I and Daemon.
+1 FAMC @F0004@
+1 FAMS @F0005@
+
+0 @I0052@ INDI
+1 NAME Rickard /Stark/
+2 GIVN Rickard
+2 SURN Stark
+1 SEX M
+1 NOTE Lord Rickard Stark of Winterfell. Father of Ned, Lyanna, and Benjen. Executed by Aerys II.
+1 FAMS @F0050@
+
+0 @I0053@ INDI
+1 NAME Lyarra /Stark/
+2 GIVN Lyarra
+2 SURN Stark
+1 SEX F
+1 NOTE Lady Lyarra Stark. Wife of Rickard Stark.
+1 FAMS @F0050@
+
+0 @I0054@ INDI
+1 NAME Eddard (Ned) /Stark/
+2 GIVN Eddard
+2 SURN Stark
+1 SEX M
+1 NOTE Eddard "Ned" Stark, Lord of Winterfell and Warden of the North. Hand of the King to Robert I. Executed by Joffrey Baratheon. Raised Jon Snow as his bastard son.
+1 FAMC @F0050@
+1 FAMS @F0051@
+
+0 @I0055@ INDI
+1 NAME Catelyn /Tully/
+2 GIVN Catelyn
+2 SURN Tully
+1 SEX F
+1 NOTE Lady Catelyn Tully, later Stark. Daughter of Hoster Tully. Was betrothed to Brandon Stark, married Ned after Brandon's death. Killed at the Red Wedding.
+1 FAMS @F0051@
+1 FAMC @F0070@
+
+0 @I0056@ INDI
+1 NAME Benjen /Stark/
+2 GIVN Benjen
+2 SURN Stark
+1 SEX M
+1 NOTE Benjen Stark. Youngest brother of Ned Stark. First Ranger of the Night's Watch. Lost beyond the Wall; returned as "Coldhands."
+1 FAMC @F0050@
+
+0 @I0057@ INDI
+1 NAME Robb /Stark/
+2 GIVN Robb
+2 SURN Stark
+1 SEX M
+1 NOTE Robb Stark, the Young Wolf. King in the North. Son of Ned and Catelyn. Killed at the Red Wedding.
+1 FAMC @F0051@
+1 FAMS @F0052@
+
+0 @I0058@ INDI
+1 NAME Sansa /Stark/
+2 GIVN Sansa
+2 SURN Stark
+1 SEX F
+1 NOTE Sansa Stark. Daughter of Ned and Catelyn. Queen in the North after Bran's reign.
+1 FAMC @F0051@
+1 FAMS @F0053@
+1 FAMS @F0054@
+
+0 @I0059@ INDI
+1 NAME Arya /Stark/
+2 GIVN Arya
+2 SURN Stark
+1 SEX F
+1 NOTE Arya Stark. Daughter of Ned and Catelyn. Trained as a Faceless Man. Killed the Night King.
+1 FAMC @F0051@
+
+0 @I0060@ INDI
+1 NAME Bran /Stark/
+2 GIVN Bran
+2 SURN Stark
+1 SEX M
+1 NOTE Brandon "Bran" Stark. Son of Ned and Catelyn. Became the Three-Eyed Raven. Elected King of the Six Kingdoms.
+1 FAMC @F0051@
+
+0 @I0061@ INDI
+1 NAME Rickon /Stark/
+2 GIVN Rickon
+2 SURN Stark
+1 SEX M
+1 NOTE Rickon Stark. Youngest son of Ned and Catelyn. Killed by Ramsay Bolton's arrow at the Battle of the Bastards.
+1 FAMC @F0051@
+
+0 @I0062@ INDI
+1 NAME Talisa /Maegyr/
+2 GIVN Talisa
+2 SURN Maegyr
+1 SEX F
+1 NOTE Talisa Maegyr of Volantis. Wife of Robb Stark. Killed at the Red Wedding.
+1 FAMS @F0052@
+
+0 @I0063@ INDI
+1 NAME Brandon /Stark/
+2 GIVN Brandon
+2 SURN Stark
+1 SEX M
+1 NOTE Brandon Stark, "Brandon the Burner." Son of Cregan Stark. Burned all the Targaryen ships and dragons.
+1 NOTE This is not Bran Stark (son of Ned). Historical Brandon.
+
+0 @I0064@ INDI
+1 NAME Howland /Reed/
+2 GIVN Howland
+2 SURN Reed
+1 SEX M
+1 NOTE Howland Reed, Lord of Greywater Watch. Present at the Tower of Joy. Ned's most loyal ally. Father of Jojen and Meera.
+1 FAMS @F0055@
+
+0 @I0065@ INDI
+1 NAME Jyana /Reed/
+2 GIVN Jyana
+2 SURN Reed
+1 SEX F
+1 NOTE Lady Jyana Reed. Wife of Howland Reed.
+1 FAMS @F0055@
+
+0 @I0066@ INDI
+1 NAME Jojen /Reed/
+2 GIVN Jojen
+2 SURN Reed
+1 SEX M
+1 NOTE Jojen Reed. Son of Howland Reed. Had the "green dreams." Helped Bran reach the Three-Eyed Raven. Killed by wights (show) or sacrificed (books).
+
+0 @I0067@ INDI
+1 NAME Meera /Reed/
+2 GIVN Meera
+2 SURN Reed
+1 SEX F
+1 NOTE Meera Reed. Daughter of Howland Reed. Protector of Bran Stark.
+
+0 @I0068@ INDI
+1 NAME Tytos /Lannister/
+2 GIVN Tytos
+2 SURN Lannister
+1 SEX M
+1 NOTE Lord Tytos Lannister of Casterly Rock. Father of Tywin, Kevan, Genna, and others. A weak lord.
+1 FAMS @F0060@
+
+0 @I0069@ INDI
+1 NAME Jeyne /Marbrand/
+2 GIVN Jeyne
+2 SURN Marbrand
+1 SEX F
+1 NOTE Lady Jeyne Marbrand. Wife of Tytos Lannister.
+1 FAMS @F0060@
+
+0 @I0070@ INDI
+1 NAME Tywin /Lannister/
+2 GIVN Tywin
+2 SURN Lannister
+1 SEX M
+1 NOTE Lord Tywin Lannister of Casterly Rock, Hand of the King to Aerys II and later Joffrey. The most powerful lord in Westeros. Killed by Tyrion on the privy.
+1 FAMC @F0060@
+1 FAMS @F0061@
+
+0 @I0071@ INDI
+1 NAME Joanna /Lannister/
+2 GIVN Joanna
+2 SURN Lannister
+1 SEX F
+1 NOTE Lady Joanna Lannister. Wife and cousin of Tywin. Died giving birth to Tyrion.
+1 FAMS @F0061@
+
+0 @I0072@ INDI
+1 NAME Cersei /Lannister/
+2 GIVN Cersei
+2 SURN Lannister
+1 SEX F
+1 NOTE Cersei Lannister. Daughter of Tywin. Queen of Westeros (married Robert Baratheon). Later Queen in her own right. Killed when the Red Keep collapsed.
+1 FAMC @F0061@
+1 FAMS @F0062@
+
+0 @I0073@ INDI
+1 NAME Jaime /Lannister/
+2 GIVN Jaime
+2 SURN Lannister
+1 SEX M
+1 NOTE Ser Jaime Lannister, "the Kingslayer." Son of Tywin. Twin of Cersei. Lord Commander of the Kingsguard. Lost his right hand. Died with Cersei in the Red Keep.
+1 FAMC @F0061@
+
+0 @I0074@ INDI
+1 NAME Tyrion /Lannister/
+2 GIVN Tyrion
+2 SURN Lannister
+1 SEX M
+1 NOTE Tyrion Lannister, "the Imp." Son of Tywin. Dwarf. Hand of the King to Joffrey and Daenerys. Became Hand of the King to Bran Stark.
+1 FAMC @F0061@
+1 FAMS @F0053@
+
+0 @I0075@ INDI
+1 NAME Kevan /Lannister/
+2 GIVN Kevan
+2 SURN Lannister
+1 SEX M
+1 NOTE Ser Kevan Lannister. Brother of Tywin. Loyal lieutenant. Killed by Varys.
+1 FAMC @F0060@
+1 FAMS @F0063@
+
+0 @I0076@ INDI
+1 NAME Dorna /Swyft/
+2 GIVN Dorna
+2 SURN Swyft
+1 SEX F
+1 NOTE Lady Dorna Swyft. Wife of Kevan Lannister.
+1 FAMS @F0063@
+
+0 @I0077@ INDI
+1 NAME Lancel /Lannister/
+2 GIVN Lancel
+2 SURN Lannister
+1 SEX M
+1 NOTE Ser Lancel Lannister. Son of Kevan. Was seduced by Cersei. Later became a religious zealot under the High Sparrow.
+1 FAMC @F0063@
+
+0 @I0078@ INDI
+1 NAME Martyn /Lannister/
+2 GIVN Martyn
+2 SURN Lannister
+1 SEX M
+1 NOTE Martyn Lannister. Son of Kevan.
+1 FAMC @F0063@
+
+0 @I0079@ INDI
+1 NAME Willem /Lannister/
+2 GIVN Willem
+2 SURN Lannister
+1 SEX M
+1 NOTE Willem Lannister. Son of Kevan.
+1 FAMC @F0063@
+
+0 @I0080@ INDI
+1 NAME Genna /Lannister/
+2 GIVN Genna
+2 SURN Lannister
+1 SEX F
+1 NOTE Lady Genna Lannister. Sister of Tywin. Married Emmon Frey. Tywin's favorite sibling.
+1 FAMC @F0060@
+1 FAMS @F0064@
+
+0 @I0081@ INDI
+1 NAME Tygett /Lannister/
+2 GIVN Tygett
+2 SURN Lannister
+1 SEX M
+1 NOTE Ser Tygett Lannister. Brother of Tywin. Deceased before the events of the series.
+1 FAMC @F0060@
+
+0 @I0082@ INDI
+1 NAME Gerion /Lannister/
+2 GIVN Gerion
+2 SURN Lannister
+1 SEX M
+1 NOTE Ser Gerion Lannister. Youngest brother of Tywin. Sailed to Old Valyria; disappeared.
+1 FAMC @F0060@
+
+0 @I0083@ INDI
+1 NAME Joffrey /Baratheon/
+2 GIVN Joffrey
+2 SURN Baratheon
+1 SEX M
+1 NOTE King Joffrey Baratheon I. Officially son of Robert and Cersei; biologically son of Jaime and Cersei. Cruel king. Killed at his own wedding by poison.
+1 FAMC @F0062@
+
+0 @I0084@ INDI
+1 NAME Myrcella /Baratheon/
+2 GIVN Myrcella
+2 SURN Baratheon
+1 SEX F
+1 NOTE Princess Myrcella Baratheon. Officially daughter of Robert and Cersei; biologically of Jaime and Cersei. Betrothed to Trystane Martell. Poisoned by Ellaria Sand.
+1 FAMC @F0062@
+
+0 @I0085@ INDI
+1 NAME Tommen /Baratheon/
+2 GIVN Tommen
+2 SURN Baratheon
+1 SEX M
+1 NOTE King Tommen Baratheon I. Officially son of Robert and Cersei; biologically of Jaime and Cersei. Married Margaery Tyrell. Jumped from a window after Cersei's wildfire explosion.
+1 FAMC @F0062@
+1 FAMS @F0113@
+
+0 @I0086@ INDI
+1 NAME Emmon /Frey/
+2 GIVN Emmon
+2 SURN Frey
+1 SEX M
+1 NOTE Ser Emmon Frey. Son of Walder Frey. Married Genna Lannister.
+1 FAMC @F0115@
+1 FAMS @F0064@
+
+0 @I0087@ INDI
+1 NAME Ormund /Baratheon/
+2 GIVN Ormund
+2 SURN Baratheon
+1 SEX M
+1 NOTE Lord Ormund Baratheon. Father of Steffon Baratheon. Married Rhaelle Targaryen, connecting the Baratheons to the Targaryen bloodline.
+1 FAMS @F0090@
+
+0 @I0088@ INDI
+1 NAME Steffon /Baratheon/
+2 GIVN Steffon
+2 SURN Baratheon
+1 SEX M
+1 NOTE Lord Steffon Baratheon. Son of Ormund and Rhaelle Targaryen. Father of Robert, Stannis, and Renly. Drowned in a shipwreck off Storm's End.
+1 FAMC @F0090@
+1 FAMS @F0091@
+
+0 @I0089@ INDI
+1 NAME Cassana /Estermont/
+2 GIVN Cassana
+2 SURN Estermont
+1 SEX F
+1 NOTE Lady Cassana Estermont. Wife of Steffon Baratheon. Mother of Robert, Stannis, and Renly. Drowned with her husband.
+1 FAMS @F0091@
+
+0 @I0090@ INDI
+1 NAME Robert /Baratheon/
+2 GIVN Robert
+2 SURN Baratheon
+1 SEX M
+1 NOTE King Robert Baratheon I of the Seven Kingdoms. Son of Steffon. Led Robert's Rebellion against Aerys II. Died in a boar hunting accident.
+1 FAMC @F0091@
+1 FAMS @F0062@
+
+0 @I0091@ INDI
+1 NAME Stannis /Baratheon/
+2 GIVN Stannis
+2 SURN Baratheon
+1 SEX M
+1 NOTE Stannis Baratheon, Lord of Dragonstone. Son of Steffon. Claimed the Iron Throne after Joffrey's parentage was revealed. Killed Renly with a shadow assassin. Killed by Brienne (show) or fate uncertain (books).
+1 FAMC @F0091@
+1 FAMS @F0092@
+
+0 @I0092@ INDI
+1 NAME Renly /Baratheon/
+2 GIVN Renly
+2 SURN Baratheon
+1 SEX M
+1 NOTE Lord Renly Baratheon. Youngest son of Steffon. Claimed the Iron Throne. In a relationship with Loras Tyrell. Killed by a shadow assassin sent by Stannis and Melisandre.
+1 FAMC @F0091@
+1 FAMS @F0093@
+
+0 @I0093@ INDI
+1 NAME Selyse /Florent/
+2 GIVN Selyse
+2 SURN Florent
+1 SEX F
+1 NOTE Lady Selyse Florent. Wife of Stannis Baratheon. A devoted follower of the Lord of Light.
+1 FAMS @F0092@
+
+0 @I0094@ INDI
+1 NAME Shireen /Baratheon/
+2 GIVN Shireen
+2 SURN Baratheon
+1 SEX F
+1 NOTE Princess Shireen Baratheon. Daughter of Stannis and Selyse. Had greyscale as a child. Burned alive as a sacrifice to the Lord of Light by Melisandre and Stannis.
+1 FAMC @F0092@
+
+0 @I0095@ INDI
+1 NAME Gendry /Waters/
+2 GIVN Gendry
+2 SURN Waters
+1 SEX M
+1 NOTE Gendry Waters (later Baratheon). Bastard son of Robert Baratheon. Blacksmith's apprentice. Later legitimized and made Lord of Storm's End by Daenerys.
+1 FAMC @F0094@
+
+0 @I0096@ INDI
+1 NAME Mya /Stone/
+2 GIVN Mya
+2 SURN Stone
+1 SEX F
+1 NOTE Mya Stone. Bastard daughter of Robert Baratheon. Works at the Eyrie's base in the books.
+1 FAMC @F0095@
+
+0 @I0097@ INDI
+1 NAME Hoster /Tully/
+2 GIVN Hoster
+2 SURN Tully
+1 SEX M
+1 NOTE Lord Hoster Tully of Riverrun. Father of Catelyn, Lysa, and Edmure. Died during the War of the Five Kings.
+1 FAMS @F0070@
+
+0 @I0098@ INDI
+1 NAME Minisa /Whent/
+2 GIVN Minisa
+2 SURN Whent
+1 SEX F
+1 NOTE Lady Minisa Whent. Wife of Hoster Tully. Died giving birth to a stillborn child.
+1 FAMS @F0070@
+
+0 @I0099@ INDI
+1 NAME Lysa /Tully/
+2 GIVN Lysa
+2 SURN Tully
+1 SEX F
+1 NOTE Lysa Tully. Daughter of Hoster. Married Jon Arryn. Obsessively protective of Robin. Pushed through the Moon Door by Littlefinger.
+1 FAMC @F0070@
+1 FAMS @F0071@
+
+0 @I0100@ INDI
+1 NAME Edmure /Tully/
+2 GIVN Edmure
+2 SURN Tully
+1 SEX M
+1 NOTE Edmure Tully. Son of Hoster. Lord of Riverrun. Captured at the Red Wedding. Married Roslin Frey.
+1 FAMC @F0070@
+1 FAMS @F0072@
+
+0 @I0101@ INDI
+1 NAME Jon /Arryn/
+2 GIVN Jon
+2 SURN Arryn
+1 SEX M
+1 NOTE Lord Jon Arryn of the Eyrie, Warden of the East. Hand of the King to Robert. Guardian of Ned and Robert in their youth. Poisoned by Lysa at Littlefinger's behest.
+1 FAMS @F0071@
+
+0 @I0102@ INDI
+1 NAME Robin /Arryn/
+2 GIVN Robin
+2 SURN Arryn
+1 SEX M
+1 NOTE Lord Robin (Robert) Arryn of the Eyrie. Sickly only son of Jon Arryn and Lysa Tully.
+1 FAMC @F0071@
+
+0 @I0103@ INDI
+1 NAME Roslin /Frey/
+2 GIVN Roslin
+2 SURN Frey
+1 SEX F
+1 NOTE Lady Roslin Frey. Daughter of Walder Frey. Married Edmure Tully at the Red Wedding.
+1 FAMC @F0115@
+1 FAMS @F0072@
+
+0 @I0104@ INDI
+1 NAME Quellon /Greyjoy/
+2 GIVN Quellon
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Lord Quellon Greyjoy of the Iron Islands. Father of Balon, Euron, Victarion, and Aeron. Died in the Rebellion.
+1 FAMS @F0080@
+
+0 @I0105@ INDI
+1 NAME Balon /Greyjoy/
+2 GIVN Balon
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Lord Balon Greyjoy of Pyke. Led the Greyjoy Rebellion. Declared independence again during the War of the Five Kings. Killed by a falling bridge (actually Euron's Faceless Man).
+1 FAMC @F0080@
+1 FAMS @F0081@
+
+0 @I0106@ INDI
+1 NAME Euron /Greyjoy/
+2 GIVN Euron
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Euron Greyjoy, "Crow's Eye." Brother of Balon. King of the Iron Islands after Balon's death. Wildly dangerous captain.
+1 FAMC @F0080@
+
+0 @I0107@ INDI
+1 NAME Victarion /Greyjoy/
+2 GIVN Victarion
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Victarion Greyjoy. Brother of Balon. Lord Captain of the Iron Fleet. (Primarily in books.)
+1 FAMC @F0080@
+
+0 @I0108@ INDI
+1 NAME Aeron /Greyjoy/
+2 GIVN Aeron
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Aeron Greyjoy, "Damphair." Brother of Balon. Drowned priest of the Drowned God.
+1 FAMC @F0080@
+
+0 @I0109@ INDI
+1 NAME Alannys /Harlaw/
+2 GIVN Alannys
+2 SURN Harlaw
+1 SEX F
+1 NOTE Lady Alannys Harlaw. Wife of Balon Greyjoy. Mother of Rodrik, Maron, Yara, and Theon.
+1 FAMS @F0081@
+
+0 @I0110@ INDI
+1 NAME Rodrik /Greyjoy/
+2 GIVN Rodrik
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Rodrik Greyjoy. Eldest son of Balon. Killed during the Greyjoy Rebellion (show)/died at Seagard (books).
+1 FAMC @F0081@
+
+0 @I0111@ INDI
+1 NAME Maron /Greyjoy/
+2 GIVN Maron
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Maron Greyjoy. Son of Balon. Killed during the Greyjoy Rebellion.
+1 FAMC @F0081@
+
+0 @I0112@ INDI
+1 NAME Yara /Greyjoy/
+2 GIVN Yara
+2 SURN Greyjoy
+1 SEX F
+1 NOTE Yara Greyjoy (Asha in the books). Daughter of Balon and Alannys. Captain of the Black Wind. Allied with Daenerys.
+1 FAMC @F0081@
+
+0 @I0113@ INDI
+1 NAME Theon /Greyjoy/
+2 GIVN Theon
+2 SURN Greyjoy
+1 SEX M
+1 NOTE Theon Greyjoy. Son of Balon. Taken as ward (hostage) by Ned Stark. Betrayed Robb Stark. Tortured as "Reek" by Ramsay Bolton. Redeemed. Killed the Night King's champion at Winterfell.
+1 FAMC @F0081@
+
+0 @I0114@ INDI
+1 NAME Luthor /Tyrell/
+2 GIVN Luthor
+2 SURN Tyrell
+1 SEX M
+1 NOTE Lord Luthor Tyrell of Highgarden. Husband of Olenna Redwyne. Died falling from his horse (or pushed, per Olenna's hints).
+1 FAMS @F0082@
+
+0 @I0115@ INDI
+1 NAME Olenna /Redwyne/
+2 GIVN Olenna
+2 SURN Redwyne
+1 SEX F
+1 NOTE Lady Olenna Tyrell (nee Redwyne), "the Queen of Thorns." Grandmother of Margaery and Loras. Poisoned Joffrey to save Margaery. Killed by Jaime (poisoned).
+1 FAMS @F0082@
+
+0 @I0116@ INDI
+1 NAME Mace /Tyrell/
+2 GIVN Mace
+2 SURN Tyrell
+1 SEX M
+1 NOTE Lord Mace Tyrell of Highgarden. Son of Luthor and Olenna. A pompous and bumbling lord.
+1 FAMC @F0082@
+1 FAMS @F0083@
+
+0 @I0117@ INDI
+1 NAME Alerie /Hightower/
+2 GIVN Alerie
+2 SURN Hightower
+1 SEX F
+1 NOTE Lady Alerie Hightower. Wife of Mace Tyrell.
+1 FAMS @F0083@
+
+0 @I0118@ INDI
+1 NAME Willas /Tyrell/
+2 GIVN Willas
+2 SURN Tyrell
+1 SEX M
+1 NOTE Willas Tyrell. Eldest son of Mace. Lame after a tourney accident with Oberyn Martell. (Books only — not in the show.)
+1 FAMC @F0083@
+
+0 @I0119@ INDI
+1 NAME Garlan /Tyrell/
+2 GIVN Garlan
+2 SURN Tyrell
+1 SEX M
+1 NOTE Ser Garlan Tyrell, "Garlan the Gallant." Son of Mace. (Books; not in show.)
+1 FAMC @F0083@
+
+0 @I0120@ INDI
+1 NAME Loras /Tyrell/
+2 GIVN Loras
+2 SURN Tyrell
+1 SEX M
+1 NOTE Ser Loras Tyrell, "the Knight of Flowers." Son of Mace. Gay; in a relationship with Renly Baratheon. Died in the wildfire explosion (show).
+1 FAMC @F0083@
+
+0 @I0121@ INDI
+1 NAME Margaery /Tyrell/
+2 GIVN Margaery
+2 SURN Tyrell
+1 SEX F
+1 NOTE Lady Margaery Tyrell. Daughter of Mace. Married Renly Baratheon, then Joffrey Baratheon, then Tommen Baratheon. Killed in the wildfire explosion.
+1 FAMC @F0083@
+1 FAMS @F0093@
+1 FAMS @F0112@
+1 FAMS @F0113@
+
+0 @I0122@ INDI
+1 NAME Doran /Martell/
+2 GIVN Doran
+2 SURN Martell
+1 SEX M
+1 NOTE Prince Doran Martell of Dorne. Cautious, patient ruler. Brother of Oberyn and Elia. Killed by Ellaria Sand.
+1 FAMC @F0100@
+1 FAMS @F0101@
+
+0 @I0123@ INDI
+1 NAME Mellario /of Norvos/
+2 GIVN Mellario
+2 SURN of Norvos
+1 SEX F
+1 NOTE Mellario of Norvos. Wife of Doran Martell. A Free City noblewoman.
+1 FAMS @F0101@
+
+0 @I0124@ INDI
+1 NAME Oberyn /Martell/
+2 GIVN Oberyn
+2 SURN Martell
+1 SEX M
+1 NOTE Prince Oberyn Martell, "the Red Viper of Dorne." Brother of Doran. Fought as Tyrion's champion against Gregor Clegane. Killed when Gregor crushed his skull.
+1 FAMC @F0100@
+1 FAMS @F0102@
+
+0 @I0125@ INDI
+1 NAME Ellaria /Sand/
+2 GIVN Ellaria
+2 SURN Sand
+1 SEX F
+1 NOTE Ellaria Sand. Paramour of Oberyn Martell. Mother of some Sand Snakes. Poisoned Myrcella. Imprisoned by Cersei.
+1 FAMS @F0102@
+
+0 @I0126@ INDI
+1 NAME Arianne /Martell/
+2 GIVN Arianne
+2 SURN Martell
+1 SEX F
+1 NOTE Princess Arianne Martell. Daughter of Doran. Heir to Dorne by Dornish law. (Books only.)
+1 FAMC @F0101@
+
+0 @I0127@ INDI
+1 NAME Quentyn /Martell/
+2 GIVN Quentyn
+2 SURN Martell
+1 SEX M
+1 NOTE Prince Quentyn Martell. Son of Doran. Went to Essos to seek Daenerys. Killed by a dragon. (Books; referenced in show.)
+1 FAMC @F0101@
+
+0 @I0128@ INDI
+1 NAME Trystane /Martell/
+2 GIVN Trystane
+2 SURN Martell
+1 SEX M
+1 NOTE Prince Trystane Martell. Son of Doran (show). Betrothed to Myrcella Baratheon. Killed by Sand Snakes.
+1 FAMC @F0101@
+
+0 @I0129@ INDI
+1 NAME Obara /Sand/
+2 GIVN Obara
+2 SURN Sand
+1 SEX F
+1 NOTE Obara Sand. Eldest Sand Snake. Daughter of Oberyn (mother was an Oldtown whore).
+1 FAMC @F0103@
+
+0 @I0130@ INDI
+1 NAME Nymeria /Sand/
+2 GIVN Nymeria
+2 SURN Sand
+1 SEX F
+1 NOTE Lady Nymeria Sand. Second Sand Snake. Daughter of Oberyn by a Volantene noblewoman.
+1 FAMC @F0104@
+
+0 @I0131@ INDI
+1 NAME Tyene /Sand/
+2 GIVN Tyene
+2 SURN Sand
+1 SEX F
+1 NOTE Tyene Sand. Third Sand Snake (in show, daughter of Oberyn and Ellaria). Killed by Cersei (poisoned).
+1 FAMC @F0102@
+
+0 @I0132@ INDI
+1 NAME Roose /Bolton/
+2 GIVN Roose
+2 SURN Bolton
+1 SEX M
+1 NOTE Roose Bolton, Lord of the Dreadfort. Warden of the North after betraying Robb Stark at the Red Wedding. Killed by Ramsay.
+1 FAMS @F0120@
+1 FAMS @F0121@
+
+0 @I0133@ INDI
+1 NAME Walda /Frey/
+2 GIVN Walda
+2 SURN Frey
+1 SEX F
+1 NOTE Lady Walda Frey ("Fat Walda"). Wife of Roose Bolton. Killed with her newborn son by Ramsay.
+1 FAMC @F0115@
+1 FAMS @F0121@
+
+0 @I0134@ INDI
+1 NAME Ramsay /Bolton/
+2 GIVN Ramsay
+2 SURN Bolton
+1 SEX M
+1 NOTE Ramsay Bolton (born Ramsay Snow). Bastard son of Roose Bolton. Sadistic ruler of Winterfell. Killed Rickon Stark. Killed by Sansa (fed to his own hounds).
+1 FAMC @F0120@
+1 FAMS @F0054@
+
+0 @I0135@ INDI
+1 NAME Domeric /Bolton/
+2 GIVN Domeric
+2 SURN Bolton
+1 SEX M
+1 NOTE Domeric Bolton. Legitimate son of Roose by Lady Bolton (deceased). Likely poisoned by Ramsay.
+1 FAMC @F0122@
+
+0 @I0136@ INDI
+1 NAME Walder /Frey/
+2 GIVN Walder
+2 SURN Frey
+1 SEX M
+1 NOTE Lord Walder Frey, "the Late Lord Frey." Lord of the Twins. Organized the Red Wedding. Killed by Arya Stark (who wore the face of one of his sons).
+1 FAMS @F0115@
+
+0 @I0137@ INDI
+1 NAME Perra /Royce/
+2 GIVN Perra
+2 SURN Royce
+1 SEX F
+1 NOTE Lady Perra Royce. First wife of Walder Frey. Mother of his elder children including Stevron and Emmon.
+1 FAMS @F0115@
+
+0 @I0138@ INDI
+1 NAME Stevron /Frey/
+2 GIVN Stevron
+2 SURN Frey
+1 SEX M
+1 NOTE Ser Stevron Frey. Eldest son and heir of Walder Frey. Died during Robb's campaign.
+1 FAMC @F0115@
+
+0 @I0139@ INDI
+1 NAME Lothar /Frey/
+2 GIVN Lothar
+2 SURN Frey
+1 SEX M
+1 NOTE Lothar Frey, "Lame Lothar." Son of Walder. Helped plan the Red Wedding. Killed by Arya Stark.
+1 FAMC @F0115@
+
+0 @I0140@ INDI
+1 NAME Black Walder /Rivers/
+2 GIVN Black Walder
+2 SURN Rivers
+1 SEX M
+1 NOTE Black Walder Rivers. Bastard son of Walder Frey. Aggressive and violent.
+1 FAMC @F0116@
+
+0 @I0141@ INDI
+1 NAME Jeor /Mormont/
+2 GIVN Jeor
+2 SURN Mormont
+1 SEX M
+1 NOTE Jeor Mormont, Lord Commander of the Night's Watch. Former Lord of Bear Island. Father of Jorah. Killed by his own men at Craster's Keep.
+1 FAMS @F0130@
+
+0 @I0142@ INDI
+1 NAME Maege /Mormont/
+2 GIVN Maege
+2 SURN Mormont
+1 SEX F
+1 NOTE Lady Maege Mormont. Sister of Jeor. Lady of Bear Island. Mother of Dacey, Lyanna, and others.
+1 FAMS @F0131@
+
+0 @I0143@ INDI
+1 NAME Jorah /Mormont/
+2 GIVN Jorah
+2 SURN Mormont
+1 SEX M
+1 NOTE Ser Jorah Mormont. Son of Jeor. Exiled from Westeros for slave trading. Devoted to Daenerys. Died fighting wights at the Battle of Winterfell.
+1 FAMC @F0130@
+1 FAMS @F0132@
+
+0 @I0144@ INDI
+1 NAME Lynesse /Hightower/
+2 GIVN Lynesse
+2 SURN Hightower
+1 SEX F
+1 NOTE Lady Lynesse Hightower. First and only wife of Jorah Mormont. Left him for a merchant prince in Lys.
+1 FAMS @F0132@
+
+0 @I0145@ INDI
+1 NAME Dacey /Mormont/
+2 GIVN Dacey
+2 SURN Mormont
+1 SEX F
+1 NOTE Dacey Mormont. Eldest daughter of Maege. Killed at the Red Wedding.
+1 FAMC @F0131@
+
+0 @I0146@ INDI
+1 NAME Lyanna /Mormont/
+2 GIVN Lyanna
+2 SURN Mormont
+1 SEX F
+1 NOTE Lady Lyanna Mormont. Daughter of Maege Mormont. Fierce young Lady of Bear Island. Fought at the Battle of Winterfell. Killed by a giant wight.
+1 FAMC @F0131@
+
+0 @I0147@ INDI
+1 NAME Randyll /Tarly/
+2 GIVN Randyll
+2 SURN Tarly
+1 SEX M
+1 NOTE Lord Randyll Tarly of Horn Hill. Harsh, demanding father. Executed by Daenerys for refusing to bend the knee.
+1 FAMS @F0140@
+
+0 @I0148@ INDI
+1 NAME Melessa /Florent/
+2 GIVN Melessa
+2 SURN Florent
+1 SEX F
+1 NOTE Lady Melessa Florent. Wife of Randyll Tarly. Kind mother to Samwell.
+1 FAMS @F0140@
+
+0 @I0149@ INDI
+1 NAME Samwell /Tarly/
+2 GIVN Samwell
+2 SURN Tarly
+1 SEX M
+1 NOTE Samwell Tarly, "Sam." Son of Randyll. Sent to the Night's Watch by his father. Best friend of Jon Snow. Became a Maester. Compiled the history of the War.
+1 FAMC @F0140@
+1 FAMS @F0141@
+
+0 @I0150@ INDI
+1 NAME Dickon /Tarly/
+2 GIVN Dickon
+2 SURN Tarly
+1 SEX M
+1 NOTE Dickon Tarly. Son of Randyll. Executed alongside his father by Daenerys.
+1 FAMC @F0140@
+
+0 @I0151@ INDI
+1 NAME Talla /Tarly/
+2 GIVN Talla
+2 SURN Tarly
+1 SEX F
+1 NOTE Talla Tarly. Daughter of Randyll and Melessa.
+1 FAMC @F0140@
+
+0 @I0152@ INDI
+1 NAME Gilly /Craster/
+2 GIVN Gilly
+2 SURN Craster
+1 SEX F
+1 NOTE Gilly. Daughter (and wife) of Craster. Companion of Samwell Tarly. Mother of Little Sam.
+1 FAMC @F0142@
+1 FAMS @F0141@
+
+0 @I0153@ INDI
+1 NAME Little Sam /Tarly/
+2 GIVN Little Sam
+2 SURN Tarly
+1 SEX M
+1 NOTE Little Sam. Son of Gilly by Craster. Raised by Samwell and Gilly as their own.
+1 FAMC @F0141@
+
+0 @I0154@ INDI
+1 NAME Craster /Craster/
+2 GIVN Craster
+2 SURN Craster
+1 SEX M
+1 NOTE Craster. A wildling who married his own daughters and offered his sons to the White Walkers. Killed by Karl Tanner.
+1 FAMS @F0142@
+
+0 @I0155@ INDI
+1 NAME Gregor /Clegane/
+2 GIVN Gregor
+2 SURN Clegane
+1 SEX M
+1 NOTE Ser Gregor Clegane, "the Mountain That Rides." Brutally violent knight. Killed Elia Martell and her children. Later reanimated as Ser Robert Strong.
+1 FAMC @F0150@
+
+0 @I0156@ INDI
+1 NAME Sandor /Clegane/
+2 GIVN Sandor
+2 SURN Clegane
+1 SEX M
+1 NOTE Sandor Clegane, "the Hound." Brother of Gregor. His face was burned by Gregor as a child. Protector of Arya Stark. Killed Gregor (Cleganebowl) during Cersei's fall.
+1 FAMC @F0150@
+
+0 @I0157@ INDI
+1 NAME Davos /Seaworth/
+2 GIVN Davos
+2 SURN Seaworth
+1 SEX M
+1 NOTE Ser Davos Seaworth, "the Onion Knight." Former smuggler. Hand of the King to Stannis, later advisor to Jon Snow. Named Lord of Storm's End (show).
+1 FAMS @F0160@
+
+0 @I0158@ INDI
+1 NAME Marya /Seaworth/
+2 GIVN Marya
+2 SURN Seaworth
+1 SEX F
+1 NOTE Lady Marya Seaworth. Wife of Davos.
+1 FAMS @F0160@
+
+0 @I0159@ INDI
+1 NAME Matthos /Seaworth/
+2 GIVN Matthos
+2 SURN Seaworth
+1 SEX M
+1 NOTE Matthos Seaworth. Son of Davos. Killed during the Battle of Blackwater Bay.
+1 FAMC @F0160@
+
+0 @I0160@ INDI
+1 NAME Petyr /Baelish/
+2 GIVN Petyr
+2 SURN Baelish
+1 SEX M
+1 NOTE Petyr Baelish, "Littlefinger." Master of Coin on the Small Council. Orchestrated Jon Arryn's murder. Manipulator extraordinaire. Killed by Arya Stark on Sansa's order.
+
+0 @I0161@ INDI
+1 NAME Brienne /of Tarth/
+2 GIVN Brienne
+2 SURN of Tarth
+1 SEX F
+1 NOTE Brienne of Tarth. Daughter of Lord Selwyn Tarth. A superb fighter. Sworn to Catelyn Stark, then Sansa Stark. Killed Renly's murderer. First woman in the Kingsguard.
+1 FAMC @F0161@
+
+0 @I0162@ INDI
+1 NAME Selwyn /Tarth/
+2 GIVN Selwyn
+2 SURN Tarth
+1 SEX M
+1 NOTE Lord Selwyn Tarth of Evenfall Hall. Father of Brienne.
+1 FAMS @F0161@
+
+0 @I0163@ INDI
+1 NAME Bronn /of the Blackwater/
+2 GIVN Bronn
+2 SURN of the Blackwater
+1 SEX M
+1 NOTE Ser Bronn of the Blackwater, later Lord Bronn of the Reach and Master of Coin. A sellsword, hired as Tyrion's champion. Married Lollys Stokeworth (show).
+1 FAMS @F0162@
+
+0 @I0164@ INDI
+1 NAME Lollys /Stokeworth/
+2 GIVN Lollys
+2 SURN Stokeworth
+1 SEX F
+1 NOTE Lady Lollys Stokeworth. Wife of Bronn (show).
+1 FAMS @F0162@
+
+0 @I0165@ INDI
+1 NAME Beric /Dondarrion/
+2 GIVN Beric
+2 SURN Dondarrion
+1 SEX M
+1 NOTE Lord Beric Dondarrion, "the Lightning Lord." Resurrected many times by Thoros of Myr. Led the Brotherhood Without Banners. Gave his final life to protect Arya at the Battle of Winterfell.
+
+0 @I0166@ INDI
+1 NAME Thoros /of Myr/
+2 GIVN Thoros
+2 SURN of Myr
+1 SEX M
+1 NOTE Thoros of Myr. A red priest of R'hllor. Member of the Brotherhood Without Banners. Repeatedly resurrected Beric Dondarrion.
+
+0 @I0167@ INDI
+1 NAME Melisandre /of Asshai/
+2 GIVN Melisandre
+2 SURN of Asshai
+1 SEX F
+1 NOTE Melisandre, "the Red Woman." A red priestess of R'hllor. Servant of Stannis Baratheon. Resurrected Jon Snow. Brought the Dothraki into the battle by lighting their arakhs. Died after the Battle of Winterfell.
+
+0 @I0168@ INDI
+1 NAME Tormund /Giantsbane/
+2 GIVN Tormund
+2 SURN Giantsbane
+1 SEX M
+1 NOTE Tormund Giantsbane. A leader among the Free Folk. Allied with Jon Snow. Led the Free Folk beyond the Wall.
+
+0 @I0169@ INDI
+1 NAME Mance /Rayder/
+2 GIVN Mance
+2 SURN Rayder
+1 SEX M
+1 NOTE Mance Rayder, "the King-Beyond-the-Wall." A former Night's Watch ranger who joined the Free Folk. United the wildlings. Killed by Stannis (or pretend-killed per Melisandre's flames) (show).
+1 FAMS @F0170@
+
+0 @I0170@ INDI
+1 NAME Dalla /Rayder/
+2 GIVN Dalla
+2 SURN Rayder
+1 SEX F
+1 NOTE Dalla. Wife of Mance Rayder. Died giving birth at Castle Black during the battle.
+1 FAMS @F0170@
+
+0 @I0171@ INDI
+1 NAME Ygritte /Free Folk/
+2 GIVN Ygritte
+2 SURN Free Folk
+1 SEX F
+1 NOTE Ygritte. A skilled wildling archer. Jon Snow's love. "You know nothing, Jon Snow." Killed by an arrow during the Battle of Castle Black.
+
+0 @I0172@ INDI
+1 NAME Osha /Free Folk/
+2 GIVN Osha
+2 SURN Free Folk
+1 SEX F
+1 NOTE Osha. A wildling woman who helped Bran and Rickon. Killed by Ramsay Bolton.
+
+0 @I0173@ INDI
+1 NAME Varys /the Spider/
+2 GIVN Varys
+2 SURN the Spider
+1 SEX M
+1 NOTE Varys, "the Spider." Master of Whisperers on the Small Council. A eunuch from Essos. Served many kings but claimed to serve the realm. Executed by Daenerys.
+
+0 @I0174@ INDI
+1 NAME Missandei /of Naath/
+2 GIVN Missandei
+2 SURN of Naath
+1 SEX F
+1 NOTE Missandei of Naath. Former slave, translator, and advisor to Daenerys. Executed by Cersei to provoke Daenerys.
+
+0 @I0175@ INDI
+1 NAME Grey Worm /Unsullied/
+2 GIVN Grey Worm
+2 SURN Unsullied
+1 SEX M
+1 NOTE Grey Worm (born Torgo Nudho). Commander of the Unsullied. Lover of Missandei.
+
+0 @I0176@ INDI
+1 NAME Barristan /Selmy/
+2 GIVN Barristan
+2 SURN Selmy
+1 SEX M
+1 NOTE Ser Barristan Selmy, "Barristan the Bold." Legendary knight. Lord Commander of the Kingsguard. Dismissed by Joffrey. Joined Daenerys in Essos. Killed in an ambush in Meereen (show).
+
+0 @I0177@ INDI
+1 NAME Daario /Naharis/
+2 GIVN Daario
+2 SURN Naharis
+1 SEX M
+1 NOTE Daario Naharis. Captain of the Second Sons sellsword company. Lover of Daenerys. Left in Meereen as regent.
+
+0 @I0178@ INDI
+1 NAME Jaqen /H'ghar/
+2 GIVN Jaqen
+2 SURN H'ghar
+1 SEX M
+1 NOTE Jaqen H'ghar. A Faceless Man from the House of Black and White. Trained Arya Stark.
+
+0 @I0179@ INDI
+1 NAME Syrio /Forel/
+2 GIVN Syrio
+2 SURN Forel
+1 SEX M
+1 NOTE Syrio Forel. First Sword of Braavos. Arya Stark's first "dancing" master. Fought Ser Meryn Trant with a wooden sword.
+
+0 @I0180@ INDI
+1 NAME Hodor /Wylis/
+2 GIVN Hodor
+2 SURN Wylis
+1 SEX M
+1 NOTE Hodor (real name Wylis). A stablehand at Winterfell. Devoted to Bran. "Hold the door." Died holding the door against wights to save Bran.
+
+0 @I0181@ INDI
+1 NAME Podrick /Payne/
+2 GIVN Podrick
+2 SURN Payne
+1 SEX M
+1 NOTE Podrick Payne. Tyrion's squire, later Brienne's squire. Became a knight at the Battle of Winterfell.
+
+0 @I0182@ INDI
+1 NAME Ilyn /Payne/
+2 GIVN Ilyn
+2 SURN Payne
+1 SEX M
+1 NOTE Ser Ilyn Payne. The King's Justice (executioner). Tongueless. Executed Ned Stark.
+
+0 @I0183@ INDI
+1 NAME Alliser /Thorne/
+2 GIVN Alliser
+2 SURN Thorne
+1 SEX M
+1 NOTE Ser Alliser Thorne. Acting Lord Commander of the Night's Watch. Led the mutiny that killed Jon Snow. Executed by Jon upon his resurrection.
+
+0 @I0184@ INDI
+1 NAME Aemon (Maester) /Targaryen/
+2 GIVN Aemon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Maester Aemon Targaryen. Son of Maekar I. Great-uncle of Aerys II and great-great-uncle of Daenerys. Lived over 100 years at Castle Black. Died en route to Oldtown.
+1 FAMC @F0013@
+
+0 @I0185@ INDI
+1 NAME Ryman /Frey/
+2 GIVN Ryman
+2 SURN Frey
+1 SEX M
+1 NOTE Ser Ryman Frey. Son of Stevron, grandson of Walder. Hanged by the Brotherhood.
+1 FAMC @F0117@
+
+0 @I0186@ INDI
+1 NAME Edwyn /Frey/
+2 GIVN Edwyn
+2 SURN Frey
+1 SEX M
+1 NOTE Edwyn Frey. Son of Ryman, great-grandson of Walder.
+1 FAMC @F0118@
+
+0 @I0187@ INDI
+1 NAME Olyvar /Frey/
+2 GIVN Olyvar
+2 SURN Frey
+1 SEX M
+1 NOTE Olyvar Frey. A squire for Robb Stark who helped betray him.
+
+0 @I0188@ INDI
+1 NAME Shae /Shae/
+2 GIVN Shae
+2 SURN Shae
+1 SEX F
+1 NOTE Shae. A camp follower and prostitute. Tyrion's lover. Betrayed Tyrion in court. Killed by Tyrion.
+
+0 @I0189@ INDI
+1 NAME Qyburn /Qyburn/
+2 GIVN Qyburn
+2 SURN Qyburn
+1 SEX M
+1 NOTE Qyburn. A former maester stripped of his chain. Served Cersei. Reanimated Ser Gregor Clegane. Killed by the Mountain.
+
+0 @I0190@ INDI
+1 NAME High Sparrow /Sparrow/
+2 GIVN High Sparrow
+2 SURN Sparrow
+1 SEX M
+1 NOTE The High Sparrow. Leader of the Faith Militant. Died in Cersei's wildfire explosion at the Sept of Baelor.
+
+0 @I0191@ INDI
+1 NAME Meera /Reed/
+2 GIVN Meera
+2 SURN Reed
+1 SEX F
+1 NOTE Meera Reed. Daughter of Howland Reed. Protector of Bran Stark north of the Wall.
+1 FAMC @F0055@
+
+0 @I0192@ INDI
+1 NAME Maester /Luwin/
+2 GIVN Maester
+2 SURN Luwin
+1 SEX M
+1 NOTE Maester Luwin. Maester of Winterfell. Advisor to the Stark family. Killed by Theon's men.
+
+0 @I0193@ INDI
+1 NAME Jojen /Reed/
+2 GIVN Jojen
+2 SURN Reed
+1 SEX M
+1 NOTE Jojen Reed. Son of Howland Reed. Had the "green dreams" (greensight). Guided Bran to the Three-Eyed Raven. Died in the journey.
+1 FAMC @F0055@
+
+0 @I0194@ INDI
+1 NAME Brynden /Rivers/
+2 GIVN Brynden
+2 SURN Rivers
+1 SEX M
+1 NOTE Brynden Rivers, "Bloodraven." Great bastard of Aegon IV Targaryen. One-eyed and ghostly. Became the previous Three-Eyed Raven, fused with a weirwood tree.
+
+0 @I0195@ INDI
+1 NAME Aegon /Targaryen/
+2 GIVN Aegon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Aegon IV Targaryen, "the Unworthy." Indulgent king whose legitimization of his bastards caused the Blackfyre Rebellions.
+1 FAMS @F0200@
+
+0 @I0196@ INDI
+1 NAME Naerys /Targaryen/
+2 GIVN Naerys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Naerys Targaryen. Sister-wife of Aegon IV.
+1 FAMS @F0200@
+
+0 @I0197@ INDI
+1 NAME Daeron /Targaryen/
+2 GIVN Daeron
+2 SURN Targaryen
+1 SEX M
+1 NOTE Daeron II Targaryen, "the Good." Son of Aegon IV (official). Peaceful king who united Dorne with the realm.
+1 FAMC @F0200@
+1 FAMS @F0201@
+
+0 @I0198@ INDI
+1 NAME Daena /Targaryen/
+2 GIVN Daena
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Daena Targaryen, "the Defiant." Daughter of Aegon III. Mother of Daemon Blackfyre by Aegon IV (her uncle).
+
+0 @I0199@ INDI
+1 NAME Daemon /Blackfyre/
+2 GIVN Daemon
+2 SURN Blackfyre
+1 SEX M
+1 NOTE Daemon Blackfyre. Great bastard of Aegon IV and Daena Targaryen. Led the first Blackfyre Rebellion. Killed by Ser Aemon Targaryen (the Dragonknight).
+
+0 @I0200@ INDI
+1 NAME Aegor /Rivers/
+2 GIVN Aegor
+2 SURN Rivers
+1 SEX M
+1 NOTE Aegor Rivers, "Bittersteel." Great bastard of Aegon IV. Founded the Golden Company after Daemon Blackfyre's death.
+
+0 @I0201@ INDI
+1 NAME Jenny /of Oldstones/
+2 GIVN Jenny
+2 SURN of Oldstones
+1 SEX F
+1 NOTE Jenny of Oldstones. A common-born woman who married Prince Duncan Targaryen, causing him to renounce his claim to the throne.
+1 FAMS @F0202@
+
+0 @I0202@ INDI
+1 NAME Aerion /Targaryen/
+2 GIVN Aerion
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aerion Targaryen, "Brightflame." Son of Maekar I. A cruel prince. Died drinking wildfire.
+1 FAMC @F0013@
+
+0 @I0203@ INDI
+1 NAME Val /Free Folk/
+2 GIVN Val
+2 SURN Free Folk
+1 SEX F
+1 NOTE Val. Sister of Dalla, wife of Mance Rayder. A wildling princess. (Primarily books.)
+1 FAMC @F0171@
+
+0 @I0204@ INDI
+1 NAME Daario /Naharis/
+2 GIVN Daario
+2 SURN Naharis
+1 SEX M
+1 NOTE Daario Naharis. This is a duplicate entry — see I0177.
+
+0 @I0205@ INDI
+1 NAME Renly /Baratheon/
+2 GIVN Renly
+2 SURN Baratheon
+1 SEX M
+1 NOTE Duplicate of I0092 — see that entry.
+
+0 @I0206@ INDI
+1 NAME Septa /Mordane/
+2 GIVN Septa
+2 SURN Mordane
+1 SEX F
+1 NOTE Septa Mordane. Septa to the Stark girls. Killed during the arrest of the Starks at King's Landing.
+
+0 @I0207@ INDI
+1 NAME Otto /Hightower/
+2 GIVN Otto
+2 SURN Hightower
+1 SEX M
+1 NOTE Ser Otto Hightower. Hand of the King to Viserys I (HotD). Father of Alicent Hightower. Repeatedly served and manipulated for his family's gain.
+1 FAMS @F0210@
+
+0 @I0208@ INDI
+1 NAME Harwin /Strong/
+2 GIVN Harwin
+2 SURN Strong
+1 SEX M
+1 NOTE Ser Harwin "Breakbones" Strong. Commander of the City Watch. Lover of Rhaenyra Targaryen. Believed to be the true father of her first three sons. Killed in the fire at Harrenhal.
+1 FAMS @F0211@
+
+0 @I0209@ INDI
+1 NAME Larys /Strong/
+2 GIVN Larys
+2 SURN Strong
+1 SEX M
+1 NOTE Larys Strong, "the Clubfoot." Son of Lyonel Strong. Master of Whisperers under Alicent. A schemer and manipulator.
+
+0 @I0210@ INDI
+1 NAME Corlys /Velaryon/
+2 GIVN Corlys
+2 SURN Velaryon
+1 SEX M
+1 NOTE Lord Corlys Velaryon, "the Sea Snake." The greatest sailor in Westerosi history. Lord of Driftmark. Husband of Rhaenys Targaryen (granddaughter of Jaehaerys I). Father of Laena and Laenor.
+1 FAMS @F0212@
+
+0 @I0211@ INDI
+1 NAME Rhaenys /Targaryen/
+2 GIVN Rhaenys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Rhaenys Targaryen, "the Queen Who Never Was." Granddaughter of Jaehaerys I. Rider of Meleys. Died in the Battle of Rook's Rest.
+1 FAMC @F0004@
+1 FAMS @F0212@
+
+0 @I0212@ INDI
+1 NAME Leyton /Hightower/
+2 GIVN Leyton
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Leyton Hightower of Oldtown. Father of Lynesse Hightower (who married Jorah Mormont).
+1 FAMS @F0213@
+
+0 @I0213@ INDI
+1 NAME Cerenna /Lannister/
+2 GIVN Cerenna
+2 SURN Lannister
+1 SEX F
+1 NOTE Lady Cerenna Lannister. Wife of Leyton Hightower. (Books; their lineage connects Hightowers to Lannisters.)
+1 FAMS @F0213@
+
+0 @I0214@ INDI
+1 NAME Lollys /Stokeworth/
+2 GIVN Lollys
+2 SURN Stokeworth
+1 SEX F
+1 NOTE Duplicate of I0164. See that entry.
+
+0 @I0215@ INDI
+1 NAME Podrick /Payne/
+2 GIVN Podrick
+2 SURN Payne
+1 SEX M
+1 NOTE Duplicate of I0181. See that entry.
+
+0 @I0216@ INDI
+1 NAME Nymeria /Sand/
+2 GIVN Nymeria
+2 SURN Sand
+1 SEX F
+1 NOTE Duplicate of I0130. See that entry.
+
+0 @I0217@ INDI
+1 NAME Obara's Mother /Unknown/
+2 GIVN Obara's Mother
+2 SURN Unknown
+1 SEX F
+1 NOTE Mother of Obara Sand. An Oldtown whore, according to Oberyn.
+1 FAMS @F0103@
+
+0 @I0218@ INDI
+1 NAME Nymeria's Mother /Unknown/
+2 GIVN Nymeria's Mother
+2 SURN Unknown
+1 SEX F
+1 NOTE Mother of Nymeria Sand. A Volantene noblewoman.
+1 FAMS @F0104@
+
+0 @I0219@ INDI
+1 NAME Walda Bolton's Baby /Bolton/
+2 GIVN Walda's Baby
+2 SURN Bolton
+1 SEX M
+1 NOTE Newborn son of Roose Bolton and Walda Frey. Killed by Ramsay along with Walda.
+1 FAMC @F0121@
+
+0 @I0220@ INDI
+1 NAME Lady Bolton /Bolton/
+2 GIVN Lady
+2 SURN Bolton
+1 SEX F
+1 NOTE Roose Bolton's first wife (unnamed). Mother of Domeric Bolton.
+1 FAMS @F0122@
+
+0 @I0221@ INDI
+1 NAME Ramsay's Mother /Unknown/
+2 GIVN Ramsay's Mother
+2 SURN Unknown
+1 SEX F
+1 NOTE The unnamed wife of a miller. Mother of Ramsay by Roose Bolton, who raped her.
+1 FAMS @F0120@
+
+0 @F0001@ FAM
+1 HUSB @I0001@
+1 WIFE @I0002@
+1 CHIL @I0004@
+
+0 @F0002@ FAM
+1 HUSB @I0001@
+1 WIFE @I0003@
+1 CHIL @I0005@
+
+0 @F0003@ FAM
+1 HUSB @I0005@
+1 WIFE @I0006@
+1 CHIL @I0007@
+1 CHIL @I0008@
+
+0 @F0004@ FAM
+1 HUSB @I0007@
+1 WIFE @I0008@
+1 CHIL @I0050@
+1 CHIL @I0051@
+1 CHIL @I0211@
+
+0 @F0005@ FAM
+1 HUSB @I0050@
+1 WIFE @I0051@
+1 CHIL @I0009@
+1 CHIL @I0010@
+
+0 @F0006@ FAM
+1 HUSB @I0009@
+1 WIFE @I0011@
+1 CHIL @I0013@
+
+0 @F0007@ FAM
+1 HUSB @I0009@
+1 WIFE @I0012@
+1 CHIL @I0015@
+1 CHIL @I0016@
+1 CHIL @I0017@
+1 CHIL @I0018@
+
+0 @F0008@ FAM
+1 HUSB @I0014@
+1 WIFE @I0013@
+1 CHIL @I0020@
+1 CHIL @I0021@
+1 CHIL @I0022@
+
+0 @F0009@ FAM
+1 HUSB @I0010@
+1 WIFE @I0019@
+1 CHIL @I0025@
+1 CHIL @I0026@
+
+0 @F0010@ FAM
+1 HUSB @I0010@
+1 WIFE @I0013@
+1 CHIL @I0023@
+1 CHIL @I0024@
+
+0 @F0011@ FAM
+1 HUSB @I0015@
+1 WIFE @I0016@
+
+0 @F0012@ FAM
+1 HUSB @I0027@
+1 WIFE @I0028@
+1 CHIL @I0032@
+1 CHIL @I0033@
+1 CHIL @I0034@
+1 CHIL @I0035@
+1 CHIL @I0036@
+
+0 @F0013@ FAM
+1 HUSB @I0030@
+1 WIFE @I0031@
+1 CHIL @I0202@
+1 CHIL @I0184@
+1 CHIL @I0027@
+
+0 @F0014@ FAM
+1 HUSB @I0033@
+1 WIFE @I0034@
+1 CHIL @I0037@
+1 CHIL @I0038@
+
+0 @F0015@ FAM
+1 HUSB @I0037@
+1 WIFE @I0038@
+1 CHIL @I0039@
+1 CHIL @I0040@
+1 CHIL @I0041@
+
+0 @F0016@ FAM
+1 HUSB @I0039@
+1 WIFE @I0042@
+1 CHIL @I0043@
+1 CHIL @I0044@
+
+0 @F0017@ FAM
+1 HUSB @I0039@
+1 WIFE @I0045@
+1 CHIL @I0046@
+
+0 @F0018@ FAM
+1 HUSB @I0047@
+1 WIFE @I0041@
+1 CHIL @I0048@
+
+0 @F0019@ FAM
+1 HUSB @I0049@
+1 WIFE @I0041@
+
+0 @F0050@ FAM
+1 HUSB @I0052@
+1 WIFE @I0053@
+1 CHIL @I0054@
+1 CHIL @I0045@
+1 CHIL @I0056@
+
+0 @F0051@ FAM
+1 HUSB @I0054@
+1 WIFE @I0055@
+1 CHIL @I0057@
+1 CHIL @I0058@
+1 CHIL @I0059@
+1 CHIL @I0060@
+1 CHIL @I0061@
+
+0 @F0052@ FAM
+1 HUSB @I0057@
+1 WIFE @I0062@
+
+0 @F0053@ FAM
+1 HUSB @I0074@
+1 WIFE @I0058@
+
+0 @F0054@ FAM
+1 HUSB @I0134@
+1 WIFE @I0058@
+
+0 @F0055@ FAM
+1 HUSB @I0064@
+1 WIFE @I0065@
+1 CHIL @I0193@
+1 CHIL @I0191@
+
+0 @F0060@ FAM
+1 HUSB @I0068@
+1 WIFE @I0069@
+1 CHIL @I0070@
+1 CHIL @I0075@
+1 CHIL @I0080@
+1 CHIL @I0081@
+1 CHIL @I0082@
+
+0 @F0061@ FAM
+1 HUSB @I0070@
+1 WIFE @I0071@
+1 CHIL @I0072@
+1 CHIL @I0073@
+1 CHIL @I0074@
+
+0 @F0062@ FAM
+1 HUSB @I0090@
+1 WIFE @I0072@
+1 CHIL @I0083@
+1 CHIL @I0084@
+1 CHIL @I0085@
+
+0 @F0063@ FAM
+1 HUSB @I0075@
+1 WIFE @I0076@
+1 CHIL @I0077@
+1 CHIL @I0078@
+1 CHIL @I0079@
+
+0 @F0064@ FAM
+1 HUSB @I0086@
+1 WIFE @I0080@
+
+0 @F0070@ FAM
+1 HUSB @I0097@
+1 WIFE @I0098@
+1 CHIL @I0055@
+1 CHIL @I0099@
+1 CHIL @I0100@
+
+0 @F0071@ FAM
+1 HUSB @I0101@
+1 WIFE @I0099@
+1 CHIL @I0102@
+
+0 @F0072@ FAM
+1 HUSB @I0100@
+1 WIFE @I0103@
+
+0 @F0080@ FAM
+1 HUSB @I0104@
+1 CHIL @I0105@
+1 CHIL @I0106@
+1 CHIL @I0107@
+1 CHIL @I0108@
+
+0 @F0081@ FAM
+1 HUSB @I0105@
+1 WIFE @I0109@
+1 CHIL @I0110@
+1 CHIL @I0111@
+1 CHIL @I0112@
+1 CHIL @I0113@
+
+0 @F0082@ FAM
+1 HUSB @I0114@
+1 WIFE @I0115@
+1 CHIL @I0116@
+
+0 @F0083@ FAM
+1 HUSB @I0116@
+1 WIFE @I0117@
+1 CHIL @I0118@
+1 CHIL @I0119@
+1 CHIL @I0120@
+1 CHIL @I0121@
+
+0 @F0090@ FAM
+1 HUSB @I0087@
+1 WIFE @I0035@
+1 CHIL @I0088@
+
+0 @F0091@ FAM
+1 HUSB @I0088@
+1 WIFE @I0089@
+1 CHIL @I0090@
+1 CHIL @I0091@
+1 CHIL @I0092@
+
+0 @F0092@ FAM
+1 HUSB @I0091@
+1 WIFE @I0093@
+1 CHIL @I0094@
+
+0 @F0093@ FAM
+1 HUSB @I0092@
+1 WIFE @I0121@
+
+0 @F0094@ FAM
+1 HUSB @I0090@
+1 CHIL @I0095@
+
+0 @F0095@ FAM
+1 HUSB @I0090@
+1 CHIL @I0096@
+
+0 @F0100@ FAM
+1 CHIL @I0122@
+1 CHIL @I0124@
+1 CHIL @I0042@
+
+0 @F0101@ FAM
+1 HUSB @I0122@
+1 WIFE @I0123@
+1 CHIL @I0126@
+1 CHIL @I0127@
+1 CHIL @I0128@
+
+0 @F0102@ FAM
+1 HUSB @I0124@
+1 WIFE @I0125@
+1 CHIL @I0131@
+
+0 @F0103@ FAM
+1 HUSB @I0124@
+1 WIFE @I0217@
+1 CHIL @I0129@
+
+0 @F0104@ FAM
+1 HUSB @I0124@
+1 WIFE @I0218@
+1 CHIL @I0130@
+
+0 @F0112@ FAM
+1 HUSB @I0083@
+1 WIFE @I0121@
+
+0 @F0113@ FAM
+1 HUSB @I0085@
+1 WIFE @I0121@
+
+0 @F0115@ FAM
+1 HUSB @I0136@
+1 WIFE @I0137@
+1 CHIL @I0086@
+1 CHIL @I0138@
+1 CHIL @I0103@
+1 CHIL @I0133@
+1 CHIL @I0139@
+
+0 @F0116@ FAM
+1 HUSB @I0136@
+1 CHIL @I0140@
+
+0 @F0117@ FAM
+1 HUSB @I0138@
+1 CHIL @I0185@
+
+0 @F0118@ FAM
+1 HUSB @I0185@
+1 CHIL @I0186@
+
+0 @F0120@ FAM
+1 HUSB @I0132@
+1 WIFE @I0221@
+1 CHIL @I0134@
+
+0 @F0121@ FAM
+1 HUSB @I0132@
+1 WIFE @I0133@
+1 CHIL @I0219@
+
+0 @F0122@ FAM
+1 HUSB @I0132@
+1 WIFE @I0220@
+1 CHIL @I0135@
+
+0 @F0130@ FAM
+1 HUSB @I0141@
+1 CHIL @I0143@
+
+0 @F0131@ FAM
+1 WIFE @I0142@
+1 CHIL @I0145@
+1 CHIL @I0146@
+
+0 @F0132@ FAM
+1 HUSB @I0143@
+1 WIFE @I0144@
+
+0 @F0140@ FAM
+1 HUSB @I0147@
+1 WIFE @I0148@
+1 CHIL @I0149@
+1 CHIL @I0150@
+1 CHIL @I0151@
+
+0 @F0141@ FAM
+1 HUSB @I0149@
+1 WIFE @I0152@
+1 CHIL @I0153@
+
+0 @F0142@ FAM
+1 HUSB @I0154@
+1 CHIL @I0152@
+
+0 @F0150@ FAM
+1 CHIL @I0155@
+1 CHIL @I0156@
+
+0 @F0160@ FAM
+1 HUSB @I0157@
+1 WIFE @I0158@
+1 CHIL @I0159@
+
+0 @F0161@ FAM
+1 HUSB @I0162@
+1 CHIL @I0161@
+
+0 @F0162@ FAM
+1 HUSB @I0163@
+1 WIFE @I0164@
+
+0 @F0170@ FAM
+1 HUSB @I0169@
+1 WIFE @I0170@
+
+0 @F0171@ FAM
+1 CHIL @I0170@
+1 CHIL @I0203@
+
+0 @F0200@ FAM
+1 HUSB @I0195@
+1 WIFE @I0196@
+1 CHIL @I0197@
+
+0 @F0201@ FAM
+1 HUSB @I0197@
+1 CHIL @I0030@
+
+0 @F0202@ FAM
+1 HUSB @I0032@
+1 WIFE @I0201@
+
+0 @F0210@ FAM
+1 HUSB @I0207@
+1 CHIL @I0012@
+
+0 @F0211@ FAM
+1 HUSB @I0208@
+1 WIFE @I0013@
+
+0 @F0212@ FAM
+1 HUSB @I0210@
+1 WIFE @I0211@
+1 CHIL @I0019@
+1 CHIL @I0014@
+
+0 @F0213@ FAM
+1 HUSB @I0212@
+1 WIFE @I0213@
+1 CHIL @I0144@
+
+0 TRLR
