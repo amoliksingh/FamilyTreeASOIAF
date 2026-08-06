@@ -54,6 +54,8 @@ def parse_gedcom(filepath: str) -> tuple[dict, dict]:
                     if current_type == "INDI":
                         raw_indi[current_id] = {
                             "name": "",
+                            "givn": "",
+                            "surn": "",
                             "sex": "other",
                             "famc": [],   # list of {id: str, pedi: str}
                             "fams": [],
@@ -89,6 +91,10 @@ def parse_gedcom(filepath: str) -> tuple[dict, dict]:
                 # Capture PEDI sub-tag for the most recent FAMC
                 if tag == "PEDI" and current_famc_idx is not None:
                     raw_indi[current_id]["famc"][current_famc_idx]["pedi"] = value.strip().lower()
+                elif tag == "GIVN":
+                    raw_indi[current_id]["givn"] = value.strip()
+                elif tag == "SURN":
+                    raw_indi[current_id]["surn"] = value.strip()
 
     return raw_indi, raw_fam
 
@@ -137,11 +143,16 @@ def build_persons(raw_indi: dict, raw_fam: dict) -> dict[str, Person]:
 
         full_name = data["name"] or f"Unknown ({indi_id})"
         parts     = full_name.split()
+        # GIVN/SURN are authoritative when present (they can carry a
+        # disambiguator, e.g. "Aegon I", that a naive name-split would lose);
+        # fall back to splitting the full name for older/incomplete records.
+        first_name = data["givn"] or (parts[0] if parts else full_name)
+        last_name  = data["surn"] or (" ".join(parts[1:]) if len(parts) > 1 else "")
         persons[indi_id] = Person(
             id=indi_id,
             name=full_name,
-            firstName=parts[0] if parts else full_name,
-            lastName=" ".join(parts[1:]) if len(parts) > 1 else "",
+            firstName=first_name,
+            lastName=last_name,
             gender=data["sex"],
             parentIds=parent_ids,
             stepParentIds=step_parent_ids,

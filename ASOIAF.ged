@@ -7,8 +7,8 @@
 1 NOTE A Song of Ice and Fire / Game of Thrones family tree
 
 0 @I0001@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon I (the Conqueror) /Targaryen/
+2 GIVN Aegon I (the Conqueror)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon I Targaryen, "the Conqueror." First King of the Seven Kingdoms.
@@ -24,8 +24,8 @@
 1 FAMS @F0001@
 
 0 @I0003@ INDI
-1 NAME Rhaenys /Targaryen/
-2 GIVN Rhaenys
+1 NAME Rhaenys (Conqueror's sister) /Targaryen/
+2 GIVN Rhaenys (Conqueror's sister)
 2 SURN Targaryen
 1 SEX F
 1 NOTE Sister-wife of Aegon the Conqueror. Rider of Meraxes.
@@ -57,8 +57,8 @@
 1 FAMS @F0003@
 
 0 @I0007@ INDI
-1 NAME Jaehaerys /Targaryen/
-2 GIVN Jaehaerys
+1 NAME Jaehaerys I (the Old King) /Targaryen/
+2 GIVN Jaehaerys I (the Old King)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Jaehaerys I Targaryen, "the Conciliator" or "the Old King." Son of Aenys I.
@@ -75,8 +75,8 @@
 1 FAMS @F0004@
 
 0 @I0009@ INDI
-1 NAME Viserys /Targaryen/
-2 GIVN Viserys
+1 NAME Viserys I /Targaryen/
+2 GIVN Viserys I
 2 SURN Targaryen
 1 SEX M
 1 NOTE Viserys I Targaryen. Grandson of Jaehaerys I. Central figure of House of the Dragon.
@@ -132,8 +132,8 @@
 1 FAMS @F0008@
 
 0 @I0015@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon II /Targaryen/
+2 GIVN Aegon II
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon II Targaryen. Eldest son of Viserys I and Alicent. Won the Dance of Dragons.
@@ -158,8 +158,8 @@
 1 FAMC @F0007@
 
 0 @I0018@ INDI
-1 NAME Daeron /Targaryen/
-2 GIVN Daeron
+1 NAME Daeron (the Daring) /Targaryen/
+2 GIVN Daeron (the Daring)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Daeron Targaryen, "the Daring." Youngest son of Viserys I and Alicent.
@@ -199,8 +199,8 @@
 1 FAMC @F0008@
 
 0 @I0023@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon III (the Younger) /Targaryen/
+2 GIVN Aegon III (the Younger)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Aegon Targaryen "the Younger." Son of Rhaenyra and Daemon. Later Aegon III.
@@ -208,8 +208,8 @@
 1 FAMS @F0214@
 
 0 @I0024@ INDI
-1 NAME Viserys /Targaryen/
-2 GIVN Viserys
+1 NAME Viserys II /Targaryen/
+2 GIVN Viserys II
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Viserys Targaryen. Son of Rhaenyra and Daemon. Later Viserys II.
@@ -233,8 +233,8 @@
 1 FAMC @F0009@
 
 0 @I0027@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon V (Egg) /Targaryen/
+2 GIVN Aegon V (Egg)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon V Targaryen, "Egg." Grandson of Daeron II, son of Maekar I. Fought for common folk. Grandfather of Aerys II.
@@ -275,8 +275,8 @@
 1 FAMC @F0012@
 
 0 @I0033@ INDI
-1 NAME Jaehaerys /Targaryen/
-2 GIVN Jaehaerys
+1 NAME Jaehaerys II /Targaryen/
+2 GIVN Jaehaerys II
 2 SURN Targaryen
 1 SEX M
 1 NOTE Jaehaerys II Targaryen. Son of Aegon V and Betha Blackwood. Father of Aerys II.
@@ -302,8 +302,8 @@
 1 FAMS @F0090@
 
 0 @I0036@ INDI
-1 NAME Daeron /Targaryen/
-2 GIVN Daeron
+1 NAME Daeron (son of Aegon V) /Targaryen/
+2 GIVN Daeron (son of Aegon V)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Daeron Targaryen. Son of Aegon V. Died young.
@@ -338,16 +338,16 @@
 1 FAMS @F0017@
 
 0 @I0040@ INDI
-1 NAME Viserys /Targaryen/
-2 GIVN Viserys
+1 NAME Viserys III (the Beggar King) /Targaryen/
+2 GIVN Viserys III (the Beggar King)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Viserys III Targaryen. Son of Aerys II. Sold Daenerys to Khal Drogo. Killed by Drogo with "a golden crown."
 1 FAMC @F0015@
 
 0 @I0041@ INDI
-1 NAME Daenerys /Targaryen/
-2 GIVN Daenerys
+1 NAME Daenerys (Stormborn) /Targaryen/
+2 GIVN Daenerys (Stormborn)
 2 SURN Targaryen
 1 SEX F
 1 NOTE Daenerys Targaryen, "Daenerys Stormborn," "Mother of Dragons," "Breaker of Chains." Born on Dragonstone during a storm. Last of her line (officially). Queen of Meereen, claimant to the Iron Throne.
@@ -365,16 +365,16 @@
 1 FAMC @F0100@
 
 0 @I0043@ INDI
-1 NAME Rhaenys /Targaryen/
-2 GIVN Rhaenys
+1 NAME Rhaenys (daughter of Rhaegar) /Targaryen/
+2 GIVN Rhaenys (daughter of Rhaegar)
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Rhaenys Targaryen. Daughter of Rhaegar and Elia. Killed during the sack of King's Landing.
 1 FAMC @F0016@
 
 0 @I0044@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon (son of Elia) /Targaryen/
+2 GIVN Aegon (son of Elia)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Aegon Targaryen. Son of Rhaegar and Elia. Killed as an infant during the sack of King's Landing.
@@ -391,7 +391,7 @@
 
 0 @I0046@ INDI
 1 NAME Aegon (Jon Snow) /Targaryen/
-2 GIVN Aegon
+2 GIVN Aegon (Jon Snow)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Born Aegon Targaryen VI, son of Rhaegar and Lyanna. Raised as Jon Snow, the bastard of Ned Stark. Lord Commander of the Night's Watch. King in the North. Nephew of Daenerys.
@@ -533,8 +533,8 @@
 1 FAMS @F0052@
 
 0 @I0063@ INDI
-1 NAME Brandon /Stark/
-2 GIVN Brandon
+1 NAME Brandon (the Burner) /Stark/
+2 GIVN Brandon (the Burner)
 2 SURN Stark
 1 SEX M
 1 NOTE Brandon Stark, "Brandon the Burner." Son of Cregan Stark. Burned all the Targaryen ships and dragons.
@@ -1500,7 +1500,7 @@
 
 0 @I0184@ INDI
 1 NAME Aemon (Maester) /Targaryen/
-2 GIVN Aemon
+2 GIVN Aemon (Maester)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Maester Aemon Targaryen. Son of Maekar I. Great-uncle of Aerys II and great-great-uncle of Daenerys. Lived over 100 years at Castle Black. Died en route to Oldtown.
@@ -1582,8 +1582,8 @@
 1 FAMC @F0216@
 
 0 @I0195@ INDI
-1 NAME Aegon /Targaryen/
-2 GIVN Aegon
+1 NAME Aegon IV (the Unworthy) /Targaryen/
+2 GIVN Aegon IV (the Unworthy)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon IV Targaryen, "the Unworthy." Indulgent king whose legitimization of his bastards caused the Blackfyre Rebellions.
@@ -1603,8 +1603,8 @@
 1 FAMS @F0200@
 
 0 @I0197@ INDI
-1 NAME Daeron /Targaryen/
-2 GIVN Daeron
+1 NAME Daeron II /Targaryen/
+2 GIVN Daeron II
 2 SURN Targaryen
 1 SEX M
 1 NOTE Daeron II Targaryen, "the Good." Son of Aegon IV (official). Peaceful king who united Dorne with the realm.
@@ -1701,8 +1701,8 @@
 1 FAMS @F0212@
 
 0 @I0211@ INDI
-1 NAME Rhaenys /Targaryen/
-2 GIVN Rhaenys
+1 NAME Rhaenys (Queen Who Never Was) /Targaryen/
+2 GIVN Rhaenys (Queen Who Never Was)
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Rhaenys Targaryen, "the Queen Who Never Was." Granddaughter of Jaehaerys I. Rider of Meleys. Died in the Battle of Rook's Rest.
@@ -1774,16 +1774,16 @@
 1 FAMS @F0215@
 
 0 @I0223@ INDI
-1 NAME Aemon /Targaryen/
-2 GIVN Aemon
+1 NAME Aemon (Dragonknight) /Targaryen/
+2 GIVN Aemon (Dragonknight)
 2 SURN Targaryen
 1 SEX M
 1 NOTE Prince Aemon Targaryen, "the Dragonknight." Son of Viserys II and Larra Rogare, brother of Aegon IV. Lord Commander of the Kingsguard, one of the greatest knights in Targaryen history. Killed the Blackfyre pretender Daemon Blackfyre (his own great-nephew) in single combat. Distinct from Maester Aemon.
 1 FAMC @F0215@
 
 0 @I0224@ INDI
-1 NAME Daeron /Targaryen/
-2 GIVN Daeron
+1 NAME Daeron I /Targaryen/
+2 GIVN Daeron I
 2 SURN Targaryen
 1 SEX M
 1 NOTE Daeron I Targaryen, "the Young Dragon." Son of Aegon III. Conquered Dorne at sixteen but could not hold it; died young in the ensuing rebellion.
@@ -1822,8 +1822,8 @@
 1 FAMS @F0201@
 
 0 @I0229@ INDI
-1 NAME Daenerys /Targaryen/
-2 GIVN Daenerys
+1 NAME Daenerys (the elder) /Targaryen/
+2 GIVN Daenerys (the elder)
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Daenerys Targaryen "the elder." Daughter of Aegon IV and Naerys, sister of Daeron II. Married Prince Maron Martell of Dorne, sealing the peaceful union of Dorne with the Seven Kingdoms.
@@ -1839,8 +1839,8 @@
 1 FAMS @F0219@
 
 0 @I0231@ INDI
-1 NAME Brandon /Stark/
-2 GIVN Brandon
+1 NAME Brandon (Ned's brother) /Stark/
+2 GIVN Brandon (Ned's brother)
 2 SURN Stark
 1 SEX M
 1 NOTE Brandon Stark. Eldest son of Rickard Stark, heir to Winterfell. Betrothed to Catelyn Tully. Executed by Aerys II alongside their father after demanding his sister Lyanna's return.
