@@ -135,12 +135,12 @@ def get_connection(
     if from_id == to_id:
         return ConnectionResponse(
             found=True,
-            path=[ConnectionHop(person=persons[from_id], relationshipToNext=None)],
+            paths=[[ConnectionHop(person=persons[from_id], relationshipToNext=None)]],
         )
 
-    def neighbours(p: Person) -> list[tuple[str, str]]:
+    def neighbours_bfs(p: Person) -> list[tuple[str, str]]:
+        # Siblings first — BFS finds a direct sibling edge in 1 hop
         edges: list[tuple[str, str]] = []
-        # Siblings first so BFS finds the 1-hop sibling path before the 2-hop parent path
         seen_sibs: set[str] = set()
         for pid in p.siblingIds:
             edges.append((pid, "sibling of"))
@@ -158,33 +158,106 @@ def get_connection(
         for pid in p.stepParentIds: edges.append((pid, "step-child of"))
         return edges
 
-    # BFS — track full path as list of (id, label_used_to_arrive)
-    visited: set[str] = {from_id}
-    queue: deque[list[tuple[str, str | None]]] = deque([[(from_id, None)]])
+    def neighbours_dfs(p: Person) -> list[tuple[str, str]]:
+        # Direct connections first — DFS fills slots with non-sibling paths first
+        edges: list[tuple[str, str]] = []
+        for pid in p.parentIds:     edges.append((pid, "child of"))
+        for pid in p.childIds:      edges.append((pid, "parent of"))
+        for pid in p.spouseIds:     edges.append((pid, "spouse of"))
+        for pid in p.stepParentIds: edges.append((pid, "step-child of"))
+        seen_sibs: set[str] = set()
+        for pid in p.siblingIds:
+            edges.append((pid, "sibling of"))
+            seen_sibs.add(pid)
+        for parent_id in p.parentIds:
+            parent = persons.get(parent_id)
+            if parent:
+                for sib_id in parent.childIds:
+                    if sib_id != p.id and sib_id not in seen_sibs:
+                        edges.append((sib_id, "sibling of"))
+                        seen_sibs.add(sib_id)
+        return edges
 
-    while queue:
-        path = queue.popleft()
-        current_id = path[-1][0]
-        person = persons.get(current_id)
+    def direct_neighbours(p: Person) -> set[str]:
+        return {nid for nid, _ in neighbours_bfs(p)}
+
+    def path_to_hops(raw: list[tuple[str, str | None]]) -> list[ConnectionHop]:
+        return [
+            ConnectionHop(
+                person=persons[pid],
+                relationshipToNext=raw[i + 1][1] if i + 1 < len(raw) else None,
+            )
+            for i, (pid, _) in enumerate(raw)
+            if pid in persons
+        ]
+
+    # Phase 1 — BFS finds the true shortest path (always in results)
+    bfs_visited: set[str] = {from_id}
+    bfs_queue: deque[list[tuple[str, str | None]]] = deque([[(from_id, None)]])
+    shortest_raw: list[tuple[str, str | None]] | None = None
+
+    while bfs_queue and shortest_raw is None:
+        path = bfs_queue.popleft()
+        person = persons.get(path[-1][0])
         if not person:
             continue
-        for next_id, rel in neighbours(person):
-            if next_id in visited or next_id not in persons:
+        for next_id, rel in neighbours_bfs(person):
+            if next_id in bfs_visited or next_id not in persons:
                 continue
             new_path = path + [(next_id, rel)]
             if next_id == to_id:
-                hops = [
-                    ConnectionHop(
-                        person=persons[pid],
-                        relationshipToNext=new_path[i + 1][1] if i + 1 < len(new_path) else None,
-                    )
-                    for i, (pid, _) in enumerate(new_path)
-                ]
-                return ConnectionResponse(found=True, path=hops)
-            visited.add(next_id)
-            queue.append(new_path)
+                shortest_raw = new_path
+                break
+            bfs_visited.add(next_id)
+            bfs_queue.append(new_path)
 
-    return ConnectionResponse(found=False, path=[])
+    if shortest_raw is None:
+        return ConnectionResponse(found=False, paths=[])
+
+    # Phase 2 — DFS with in-flight pruning collects alternative paths.
+    # Detour rule: skip next_id if it is a direct neighbour of the node
+    # immediately before the current one in the path — that makes the current
+    # node an unnecessary intermediary (sibling→parent or parent→sibling shortcuts).
+    MAX_COLLECT    = 20
+    MAX_EXTRA_HOPS = 5
+    max_len        = len(shortest_raw) + MAX_EXTRA_HOPS
+    all_raw: list[list[tuple[str, str | None]]] = [shortest_raw]
+
+    def dfs(
+        current_id: str,
+        path: list[tuple[str, str | None]],
+        visited: set[str],
+    ) -> None:
+        if len(all_raw) >= MAX_COLLECT or len(path) > max_len:
+            return
+        if current_id == to_id:
+            raw = list(path)
+            if raw != shortest_raw:
+                all_raw.append(raw)
+            return
+        person = persons.get(current_id)
+        if not person:
+            return
+        prev_id   = path[-2][0] if len(path) >= 2 else None
+        prev_nbrs = direct_neighbours(persons[prev_id]) if prev_id and prev_id in persons else set()
+        for next_id, rel in neighbours_dfs(person):
+            if next_id in visited or next_id not in persons:
+                continue
+            if next_id in prev_nbrs:
+                continue  # current node is an unnecessary detour between prev and next
+            visited.add(next_id)
+            path.append((next_id, rel))
+            dfs(next_id, path, visited)
+            path.pop()
+            visited.remove(next_id)
+
+    dfs(from_id, [(from_id, None)], {from_id})
+    all_raw.sort(key=len)
+
+    return ConnectionResponse(
+        found=True,
+        paths=[path_to_hops(p) for p in all_raw[:5]],
+    )
 
 
 # Serve the React build in production — must come after all API routes

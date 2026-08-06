@@ -26,5 +26,5 @@ export interface ConnectionHop {
 
 export interface ConnectionResponse {
   found: boolean;
-  path: ConnectionHop[];
+  paths: ConnectionHop[][];
 }

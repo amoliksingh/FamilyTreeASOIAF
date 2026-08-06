@@ -118,7 +118,7 @@ export const useFamilyStore = create<FamilyStore>((set, get) => ({
       const result = await fetchConnection(connectionFrom.id, connectionTo.id);
       set({ connectionResult: result });
     } catch {
-      set({ connectionResult: { found: false, path: [] } });
+      set({ connectionResult: { found: false, paths: [] } });
     } finally {
       set({ connectionLoading: false });
     }

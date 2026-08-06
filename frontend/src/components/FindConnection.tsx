@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useFamilyStore } from "../store/useFamilyStore";
 import { searchPersons } from "../api/familyTreeApi";
 import type { PersonSummary } from "../types/person";
@@ -94,16 +94,14 @@ export default function FindConnection() {
     toggleConnectionMode, setCenterId,
   } = useFamilyStore();
 
-  const [expanded, setExpanded] = useState(false);
+  const [expanded,  setExpanded]  = useState(false);
+  const [pathIndex, setPathIndex] = useState(0);
 
-  // Reset expanded state when a new result arrives
-  const prevResultRef = useRef(connectionResult);
-  useCallback(() => {
-    if (connectionResult !== prevResultRef.current) {
-      setExpanded(false);
-      prevResultRef.current = connectionResult;
-    }
-  }, [connectionResult])();
+  useEffect(() => { setPathIndex(0); }, [connectionResult]);
+
+  const paths      = connectionResult?.paths ?? [];
+  const totalPaths = paths.length;
+  const activePath = paths[pathIndex] ?? [];
 
   return (
     <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30">
@@ -135,13 +133,41 @@ export default function FindConnection() {
 
       {connectionResult && (
         <div className="mt-3">
-          {!connectionResult.found ? (
+          {!connectionResult.found || totalPaths === 0 ? (
             <p className="text-gray-400 text-sm">No connection found between these two people.</p>
           ) : (
             <>
+              {totalPaths > 1 && (
+                <div className="flex items-center gap-2 mb-2">
+                  <button
+                    onClick={() => setPathIndex(i => Math.max(0, i - 1))}
+                    disabled={pathIndex === 0}
+                    className="w-6 h-6 flex items-center justify-center rounded bg-gray-800 hover:bg-gray-700 disabled:opacity-30 disabled:cursor-default text-white text-xs transition-colors"
+                  >
+                    ‹
+                  </button>
+                  <span className="text-gray-400 text-xs">
+                    Path {pathIndex + 1} of {totalPaths}
+                  </span>
+                  <button
+                    onClick={() => setPathIndex(i => Math.min(totalPaths - 1, i + 1))}
+                    disabled={pathIndex === totalPaths - 1}
+                    className="w-6 h-6 flex items-center justify-center rounded bg-gray-800 hover:bg-gray-700 disabled:opacity-30 disabled:cursor-default text-white text-xs transition-colors"
+                  >
+                    ›
+                  </button>
+                  {pathIndex === 0 && (
+                    <span className="text-indigo-400 text-xs font-medium">simplest</span>
+                  )}
+                  <span className="text-gray-600 text-xs ml-1">
+                    {activePath.length} hop{activePath.length !== 1 ? "s" : ""}
+                  </span>
+                </div>
+              )}
+
               <div className={expanded ? "flex items-start gap-2 flex-wrap" : "overflow-x-auto pb-1"}>
                 <div className={expanded ? "flex items-center gap-2 flex-wrap" : "flex items-center gap-2 flex-nowrap w-max"}>
-                  {connectionResult.path.map((hop) => (
+                  {activePath.map((hop) => (
                     <span key={hop.person.id} className="flex items-center gap-2">
                       <button
                         onClick={() => setCenterId(hop.person.id)}

@@ -34,4 +34,4 @@ class ConnectionHop(BaseModel):
 
 class ConnectionResponse(BaseModel):
     found: bool
-    path: list[ConnectionHop]
+    paths: list[list[ConnectionHop]]
