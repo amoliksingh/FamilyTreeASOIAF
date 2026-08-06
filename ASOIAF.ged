@@ -100,6 +100,7 @@
 2 SURN Arryn
 1 SEX F
 1 NOTE First wife of Viserys I. Daughter of Lord Rodrik Arryn.
+1 FAMC @F0221@
 1 FAMS @F0006@
 
 0 @I0012@ INDI
@@ -108,6 +109,7 @@
 2 SURN Hightower
 1 SEX F
 1 NOTE Second wife of Viserys I. Daughter of Ser Otto Hightower, the Hand of the King.
+1 FAMC @F0210@
 1 FAMS @F0007@
 
 0 @I0013@ INDI
@@ -126,6 +128,7 @@
 2 SURN Velaryon
 1 SEX M
 1 NOTE Ser Laenor Velaryon. First husband of Rhaenyra.
+1 FAMC @F0212@
 1 FAMS @F0008@
 
 0 @I0015@ INDI
@@ -168,6 +171,7 @@
 2 SURN Velaryon
 1 SEX F
 1 NOTE Lady Laena Velaryon. First wife of Daemon Targaryen. Rider of Vhagar. Sister of Laenor.
+1 FAMC @F0212@
 1 FAMS @F0009@
 
 0 @I0020@ INDI
@@ -201,6 +205,7 @@
 1 SEX M
 1 NOTE Prince Aegon Targaryen "the Younger." Son of Rhaenyra and Daemon. Later Aegon III.
 1 FAMC @F0010@
+1 FAMS @F0214@
 
 0 @I0024@ INDI
 1 NAME Viserys /Targaryen/
@@ -209,6 +214,7 @@
 1 SEX M
 1 NOTE Prince Viserys Targaryen. Son of Rhaenyra and Daemon. Later Viserys II.
 1 FAMC @F0010@
+1 FAMS @F0215@
 
 0 @I0025@ INDI
 1 NAME Baela /Targaryen/
@@ -242,14 +248,6 @@
 1 SEX F
 1 NOTE Betha Blackwood, "Black Betha." Wife of Aegon V.
 1 FAMS @F0012@
-
-0 @I0029@ INDI
-1 NAME Aemon /Targaryen/
-2 GIVN Aemon
-2 SURN Targaryen
-1 SEX M
-1 NOTE Maester Aemon Targaryen. Son of Maekar I, uncle of Aegon V. Served Night's Watch for decades.
-1 FAMC @F0013@
 
 0 @I0030@ INDI
 1 NAME Maekar /Targaryen/
@@ -541,6 +539,7 @@
 1 SEX M
 1 NOTE Brandon Stark, "Brandon the Burner." Son of Cregan Stark. Burned all the Targaryen ships and dragons.
 1 NOTE This is not Bran Stark (son of Ned). Historical Brandon.
+1 FAMC @F0224@
 
 0 @I0064@ INDI
 1 NAME Howland /Reed/
@@ -557,20 +556,6 @@
 1 SEX F
 1 NOTE Lady Jyana Reed. Wife of Howland Reed.
 1 FAMS @F0055@
-
-0 @I0066@ INDI
-1 NAME Jojen /Reed/
-2 GIVN Jojen
-2 SURN Reed
-1 SEX M
-1 NOTE Jojen Reed. Son of Howland Reed. Had the "green dreams." Helped Bran reach the Three-Eyed Raven. Killed by wights (show) or sacrificed (books).
-
-0 @I0067@ INDI
-1 NAME Meera /Reed/
-2 GIVN Meera
-2 SURN Reed
-1 SEX F
-1 NOTE Meera Reed. Daughter of Howland Reed. Protector of Bran Stark.
 
 0 @I0068@ INDI
 1 NAME Tytos /Lannister/
@@ -764,6 +749,7 @@
 1 NOTE King Robert Baratheon I of the Seven Kingdoms. Son of Steffon. Led Robert's Rebellion against Aerys II. Died in a boar hunting accident.
 1 FAMC @F0091@
 1 FAMS @F0062@
+1 FAMS @F0222@
 
 0 @I0091@ INDI
 1 NAME Stannis /Baratheon/
@@ -821,6 +807,7 @@
 2 SURN Tully
 1 SEX M
 1 NOTE Lord Hoster Tully of Riverrun. Father of Catelyn, Lysa, and Edmure. Died during the War of the Five Kings.
+1 FAMC @F0220@
 1 FAMS @F0070@
 
 0 @I0098@ INDI
@@ -1211,6 +1198,7 @@
 2 SURN Hightower
 1 SEX F
 1 NOTE Lady Lynesse Hightower. First and only wife of Jorah Mormont. Left him for a merchant prince in Lys.
+1 FAMC @F0213@
 1 FAMS @F0132@
 
 0 @I0145@ INDI
@@ -1416,6 +1404,7 @@
 2 SURN Rayder
 1 SEX F
 1 NOTE Dalla. Wife of Mance Rayder. Died giving birth at Castle Black during the battle.
+1 FAMC @F0171@
 1 FAMS @F0170@
 
 0 @I0171@ INDI
@@ -1590,6 +1579,7 @@
 2 SURN Rivers
 1 SEX M
 1 NOTE Brynden Rivers, "Bloodraven." Great bastard of Aegon IV Targaryen. One-eyed and ghostly. Became the previous Three-Eyed Raven, fused with a weirwood tree.
+1 FAMC @F0216@
 
 0 @I0195@ INDI
 1 NAME Aegon /Targaryen/
@@ -1597,7 +1587,11 @@
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon IV Targaryen, "the Unworthy." Indulgent king whose legitimization of his bastards caused the Blackfyre Rebellions.
+1 FAMC @F0215@
 1 FAMS @F0200@
+1 FAMS @F0216@
+1 FAMS @F0217@
+1 FAMS @F0218@
 
 0 @I0196@ INDI
 1 NAME Naerys /Targaryen/
@@ -1605,6 +1599,7 @@
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Naerys Targaryen. Sister-wife of Aegon IV.
+1 FAMC @F0215@
 1 FAMS @F0200@
 
 0 @I0197@ INDI
@@ -1622,6 +1617,8 @@
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Daena Targaryen, "the Defiant." Daughter of Aegon III. Mother of Daemon Blackfyre by Aegon IV (her uncle).
+1 FAMC @F0214@
+1 FAMS @F0218@
 
 0 @I0199@ INDI
 1 NAME Daemon /Blackfyre/
@@ -1629,6 +1626,7 @@
 2 SURN Blackfyre
 1 SEX M
 1 NOTE Daemon Blackfyre. Great bastard of Aegon IV and Daena Targaryen. Led the first Blackfyre Rebellion. Killed by Ser Aemon Targaryen (the Dragonknight).
+1 FAMC @F0218@
 
 0 @I0200@ INDI
 1 NAME Aegor /Rivers/
@@ -1636,6 +1634,7 @@
 2 SURN Rivers
 1 SEX M
 1 NOTE Aegor Rivers, "Bittersteel." Great bastard of Aegon IV. Founded the Golden Company after Daemon Blackfyre's death.
+1 FAMC @F0217@
 
 0 @I0201@ INDI
 1 NAME Jenny /of Oldstones/
@@ -1661,20 +1660,6 @@
 1 NOTE Val. Sister of Dalla, wife of Mance Rayder. A wildling princess. (Primarily books.)
 1 FAMC @F0171@
 
-0 @I0204@ INDI
-1 NAME Daario /Naharis/
-2 GIVN Daario
-2 SURN Naharis
-1 SEX M
-1 NOTE Daario Naharis. This is a duplicate entry — see I0177.
-
-0 @I0205@ INDI
-1 NAME Renly /Baratheon/
-2 GIVN Renly
-2 SURN Baratheon
-1 SEX M
-1 NOTE Duplicate of I0092 — see that entry.
-
 0 @I0206@ INDI
 1 NAME Septa /Mordane/
 2 GIVN Septa
@@ -1696,6 +1681,7 @@
 2 SURN Strong
 1 SEX M
 1 NOTE Ser Harwin "Breakbones" Strong. Commander of the City Watch. Lover of Rhaenyra Targaryen. Believed to be the true father of her first three sons. Killed in the fire at Harrenhal.
+1 FAMC @F0223@
 1 FAMS @F0211@
 
 0 @I0209@ INDI
@@ -1704,6 +1690,7 @@
 2 SURN Strong
 1 SEX M
 1 NOTE Larys Strong, "the Clubfoot." Son of Lyonel Strong. Master of Whisperers under Alicent. A schemer and manipulator.
+1 FAMC @F0223@
 
 0 @I0210@ INDI
 1 NAME Corlys /Velaryon/
@@ -1737,27 +1724,6 @@
 1 SEX F
 1 NOTE Lady Cerenna Lannister. Wife of Leyton Hightower. (Books; their lineage connects Hightowers to Lannisters.)
 1 FAMS @F0213@
-
-0 @I0214@ INDI
-1 NAME Lollys /Stokeworth/
-2 GIVN Lollys
-2 SURN Stokeworth
-1 SEX F
-1 NOTE Duplicate of I0164. See that entry.
-
-0 @I0215@ INDI
-1 NAME Podrick /Payne/
-2 GIVN Podrick
-2 SURN Payne
-1 SEX M
-1 NOTE Duplicate of I0181. See that entry.
-
-0 @I0216@ INDI
-1 NAME Nymeria /Sand/
-2 GIVN Nymeria
-2 SURN Sand
-1 SEX F
-1 NOTE Duplicate of I0130. See that entry.
 
 0 @I0217@ INDI
 1 NAME Obara's Mother /Unknown/
@@ -1798,6 +1764,143 @@
 1 SEX F
 1 NOTE The unnamed wife of a miller. Mother of Ramsay by Roose Bolton, who raped her.
 1 FAMS @F0120@
+
+0 @I0222@ INDI
+1 NAME Larra /Rogare/
+2 GIVN Larra
+2 SURN Rogare
+1 SEX F
+1 NOTE Larra Rogare of Lys. Wife of Viserys II Targaryen, member of the powerful Rogare banking family. Mother of Aegon IV, Naerys, and Aemon the Dragonknight.
+1 FAMS @F0215@
+
+0 @I0223@ INDI
+1 NAME Aemon /Targaryen/
+2 GIVN Aemon
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aemon Targaryen, "the Dragonknight." Son of Viserys II and Larra Rogare, brother of Aegon IV. Lord Commander of the Kingsguard, one of the greatest knights in Targaryen history. Killed the Blackfyre pretender Daemon Blackfyre (his own great-nephew) in single combat. Distinct from Maester Aemon.
+1 FAMC @F0215@
+
+0 @I0224@ INDI
+1 NAME Daeron /Targaryen/
+2 GIVN Daeron
+2 SURN Targaryen
+1 SEX M
+1 NOTE Daeron I Targaryen, "the Young Dragon." Son of Aegon III. Conquered Dorne at sixteen but could not hold it; died young in the ensuing rebellion.
+1 FAMC @F0214@
+
+0 @I0225@ INDI
+1 NAME Baelor /Targaryen/
+2 GIVN Baelor
+2 SURN Targaryen
+1 SEX M
+1 NOTE Baelor I Targaryen, "the Blessed." Son of Aegon III, brother of Daeron I. A pious king who starved himself to death; later sainted by the Faith of the Seven.
+1 FAMC @F0214@
+
+0 @I0226@ INDI
+1 NAME Melissa /Blackwood/
+2 GIVN Melissa
+2 SURN Blackwood
+1 SEX F
+1 NOTE Lady Melissa "Missy" Blackwood. Mistress of Aegon IV Targaryen; mother of Brynden Rivers, "Bloodraven."
+1 FAMS @F0216@
+
+0 @I0227@ INDI
+1 NAME Barba /Bracken/
+2 GIVN Barba
+2 SURN Bracken
+1 SEX F
+1 NOTE Lady Barba Bracken. Mistress of Aegon IV Targaryen; mother of Aegor Rivers, "Bittersteel."
+1 FAMS @F0217@
+
+0 @I0228@ INDI
+1 NAME Myriah /Martell/
+2 GIVN Myriah
+2 SURN Martell
+1 SEX F
+1 NOTE Princess Myriah Martell of Dorne. Wife of Daeron II Targaryen; her marriage, alongside her brother Maron's marriage to Daenerys Targaryen, united Dorne with the Seven Kingdoms.
+1 FAMS @F0201@
+
+0 @I0229@ INDI
+1 NAME Daenerys /Targaryen/
+2 GIVN Daenerys
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Daenerys Targaryen "the elder." Daughter of Aegon IV and Naerys, sister of Daeron II. Married Prince Maron Martell of Dorne, sealing the peaceful union of Dorne with the Seven Kingdoms.
+1 FAMC @F0200@
+1 FAMS @F0219@
+
+0 @I0230@ INDI
+1 NAME Maron /Martell/
+2 GIVN Maron
+2 SURN Martell
+1 SEX M
+1 NOTE Prince Maron Martell of Dorne. Married Daenerys Targaryen, sister of Daeron II; his rule saw Dorne join the Seven Kingdoms by marriage pact rather than conquest.
+1 FAMS @F0219@
+
+0 @I0231@ INDI
+1 NAME Brandon /Stark/
+2 GIVN Brandon
+2 SURN Stark
+1 SEX M
+1 NOTE Brandon Stark. Eldest son of Rickard Stark, heir to Winterfell. Betrothed to Catelyn Tully. Executed by Aerys II alongside their father after demanding his sister Lyanna's return.
+1 FAMC @F0050@
+
+0 @I0232@ INDI
+1 NAME Brynden /Tully/
+2 GIVN Brynden
+2 SURN Tully
+1 SEX M
+1 NOTE Ser Brynden Tully, "the Blackfish." Younger brother of Hoster Tully. Renowned knight and commander who held Riverrun against the Lannisters after the Red Wedding.
+1 FAMC @F0220@
+
+0 @I0233@ INDI
+1 NAME Rodrik /Arryn/
+2 GIVN Rodrik
+2 SURN Arryn
+1 SEX M
+1 NOTE Lord Rodrik Arryn of the Vale. Father of Aemma Arryn, first wife of Viserys I Targaryen.
+1 FAMS @F0221@
+
+0 @I0234@ INDI
+1 NAME Delena /Florent/
+2 GIVN Delena
+2 SURN Florent
+1 SEX F
+1 NOTE Delena Florent. Cousin of Selyse Florent. Bore Robert Baratheon's bastard son Edric Storm; later married off to cover the scandal.
+1 FAMS @F0222@
+
+0 @I0235@ INDI
+1 NAME Edric /Storm/
+2 GIVN Edric
+2 SURN Storm
+1 SEX M
+1 NOTE Edric Storm. Bastard son of Robert Baratheon and Delena Florent. Sought by Melisandre for his king's blood. (Primarily books.)
+1 FAMC @F0222@
+
+0 @I0236@ INDI
+1 NAME Lyonel /Strong/
+2 GIVN Lyonel
+2 SURN Strong
+1 SEX M
+1 NOTE Lord Lyonel Strong of Harrenhal. Hand of the King to Viserys I. Father of Harwin and Larys Strong. Died in the fire at Harrenhal.
+1 FAMS @F0223@
+
+0 @I0237@ INDI
+1 NAME Cregan /Stark/
+2 GIVN Cregan
+2 SURN Stark
+1 SEX M
+1 NOTE Lord Cregan Stark of Winterfell, "the Old Wolf." Led Northern forces in the Dance of the Dragons; later Hand of the King. Father of Brandon "the Burner" Stark.
+1 FAMS @F0224@
+
+0 @I0238@ INDI
+1 NAME Daenaera /Velaryon/
+2 GIVN Daenaera
+2 SURN Velaryon
+1 SEX F
+1 NOTE Queen Daenaera Velaryon. Child bride and second wife of Aegon III. Mother of Daeron I, Baelor I, and Daena.
+1 FAMS @F0214@
 
 0 @F0001@ FAM
 1 HUSB @I0001@
@@ -1919,6 +2022,7 @@
 1 CHIL @I0054@
 1 CHIL @I0045@
 1 CHIL @I0056@
+1 CHIL @I0231@
 
 0 @F0051@ FAM
 1 HUSB @I0054@
@@ -2183,9 +2287,11 @@
 1 HUSB @I0195@
 1 WIFE @I0196@
 1 CHIL @I0197@
+1 CHIL @I0229@
 
 0 @F0201@ FAM
 1 HUSB @I0197@
+1 WIFE @I0228@
 1 CHIL @I0030@
 
 0 @F0202@ FAM
@@ -2210,5 +2316,60 @@
 1 HUSB @I0212@
 1 WIFE @I0213@
 1 CHIL @I0144@
+
+0 @F0214@ FAM
+1 HUSB @I0023@
+1 WIFE @I0238@
+1 CHIL @I0198@
+1 CHIL @I0224@
+1 CHIL @I0225@
+
+0 @F0215@ FAM
+1 HUSB @I0024@
+1 WIFE @I0222@
+1 CHIL @I0195@
+1 CHIL @I0196@
+1 CHIL @I0223@
+
+0 @F0216@ FAM
+1 HUSB @I0195@
+1 WIFE @I0226@
+1 CHIL @I0194@
+
+0 @F0217@ FAM
+1 HUSB @I0195@
+1 WIFE @I0227@
+1 CHIL @I0200@
+
+0 @F0218@ FAM
+1 HUSB @I0195@
+1 WIFE @I0198@
+1 CHIL @I0199@
+
+0 @F0219@ FAM
+1 HUSB @I0230@
+1 WIFE @I0229@
+
+0 @F0220@ FAM
+1 CHIL @I0097@
+1 CHIL @I0232@
+
+0 @F0221@ FAM
+1 HUSB @I0233@
+1 CHIL @I0011@
+
+0 @F0222@ FAM
+1 HUSB @I0090@
+1 WIFE @I0234@
+1 CHIL @I0235@
+
+0 @F0223@ FAM
+1 HUSB @I0236@
+1 CHIL @I0208@
+1 CHIL @I0209@
+
+0 @F0224@ FAM
+1 HUSB @I0237@
+1 CHIL @I0063@
 
 0 TRLR
