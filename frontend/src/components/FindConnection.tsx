@@ -104,7 +104,7 @@ export default function FindConnection() {
   const activePath = paths[pathIndex] ?? [];
 
   return (
-    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30">
+    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30 shrink-0 max-h-[70vh] flex flex-col overflow-hidden">
       <div className="flex items-center gap-3 flex-wrap">
         <span className="text-gray-400 text-xs shrink-0">Find connection between</span>
 
@@ -132,13 +132,13 @@ export default function FindConnection() {
       </div>
 
       {connectionResult && (
-        <div className="mt-3">
+        <div className="mt-3 flex-1 min-h-0 flex flex-col">
           {!connectionResult.found || totalPaths === 0 ? (
             <p className="text-gray-400 text-sm">No connection found between these two people.</p>
           ) : (
             <>
               {totalPaths > 1 && (
-                <div className="flex items-center gap-2 mb-2">
+                <div className="flex items-center gap-2 mb-2 shrink-0">
                   <button
                     onClick={() => setPathIndex(i => Math.max(0, i - 1))}
                     disabled={pathIndex === 0}
@@ -165,7 +165,11 @@ export default function FindConnection() {
                 </div>
               )}
 
-              <div className={expanded ? "flex items-start gap-2 flex-wrap" : "overflow-x-auto pb-1"}>
+              {/* When expanded, this list can run to dozens of names for a
+                  long in-law-only bridge — it needs its own scroll region
+                  rather than relying on the page (which is overflow-hidden
+                  and would just silently clip anything past the fold). */}
+              <div className={expanded ? "flex items-start gap-2 flex-wrap overflow-y-auto min-h-0" : "overflow-x-auto pb-1 shrink-0"}>
                 <div className={expanded ? "flex items-center gap-2 flex-wrap" : "flex items-center gap-2 flex-nowrap w-max"}>
                   {activePath.map((hop) => (
                     <span key={hop.person.id} className="flex items-center gap-2">
@@ -186,7 +190,7 @@ export default function FindConnection() {
               </div>
               <button
                 onClick={() => setExpanded(e => !e)}
-                className="mt-2 text-gray-500 hover:text-gray-300 text-xs transition-colors"
+                className="mt-2 text-gray-500 hover:text-gray-300 text-xs transition-colors shrink-0"
               >
                 {expanded ? "▲ collapse" : "▼ expand"}
               </button>
