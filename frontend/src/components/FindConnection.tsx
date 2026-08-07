@@ -104,8 +104,8 @@ export default function FindConnection() {
   const activePath = paths[pathIndex] ?? [];
 
   return (
-    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30 shrink-0 max-h-[70dvh] flex flex-col overflow-hidden">
-      <div className="flex items-center gap-3 flex-wrap">
+    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30 shrink-0 max-h-[70dvh] flex flex-col">
+      <div className="flex items-center gap-3 flex-wrap shrink-0">
         <span className="text-gray-400 text-xs shrink-0">Find connection between</span>
 
         <PersonPicker label="Person A" selected={connectionFrom} onSelect={setConnectionFrom} />
@@ -132,7 +132,7 @@ export default function FindConnection() {
       </div>
 
       {connectionResult && (
-        <div className="mt-3 flex-1 min-h-0 flex flex-col">
+        <div className="mt-3 flex-1 min-h-0 flex flex-col overflow-hidden">
           {!connectionResult.found || totalPaths === 0 ? (
             <p className="text-gray-400 text-sm">No connection found between these two people.</p>
           ) : (
