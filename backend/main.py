@@ -224,8 +224,15 @@ def get_connection(
     # marrying back into the family compounds the number of distinct valid
     # paths between two people. The old caps were tuned for an ordinary tree
     # and silently dropped those extra relationships.
+    # 8 was still too tight: distant in-law branches (e.g. Loras Tyrell to a
+    # Targaryen only via the Hightower line, through Alicent -> Aegon II ->
+    # Jaehaera -> Aegon III) can legitimately run 20+ hops longer than the
+    # true shortest path once a marriage is the only bridge between two
+    # houses. Benchmarked up to 16 on the densest pairs in this dataset
+    # (Loras<->Daenerys, Jaehaerys I<->Alysanne) at well under half a second,
+    # so there's headroom before this needs smarter pruning instead.
     MAX_COLLECT    = 60
-    MAX_EXTRA_HOPS = 8
+    MAX_EXTRA_HOPS = 16
     max_len        = len(shortest_raw) + MAX_EXTRA_HOPS
     all_raw: list[list[tuple[str, str | None]]] = [shortest_raw]
 
@@ -260,9 +267,14 @@ def get_connection(
     dfs(from_id, [(from_id, None)], {from_id})
     all_raw.sort(key=len)
 
+    # Ties are common at the max length (e.g. dozens of equally-long paths
+    # through a single distant in-law bridge like a Hightower marriage), so
+    # a path can be genuinely valid yet still miss a too-tight cutoff by
+    # sheer luck of DFS traversal order. 20 gives real long-bridge paths
+    # room to land without the list becoming unusable.
     return ConnectionResponse(
         found=True,
-        paths=[path_to_hops(p) for p in all_raw[:12]],
+        paths=[path_to_hops(p) for p in all_raw[:20]],
     )
 
 
