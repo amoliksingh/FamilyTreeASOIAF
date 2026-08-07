@@ -164,7 +164,7 @@ def build_persons(raw_indi: dict, raw_fam: dict) -> dict[str, Person]:
     # Reconciliation pass — scan every FAM record and fill in any
     # parentIds / childIds / siblingIds / spouseIds that are missing because
     # the corresponding INDI record lacks a FAMS or FAMC back-reference tag.
-    for fam in raw_fam.values():
+    for fam_id, fam in raw_fam.items():
         husb     = fam.get("husb")
         wife     = fam.get("wife")
         children = [c for c in fam.get("chil", []) if c in persons]
@@ -178,12 +178,22 @@ def build_persons(raw_indi: dict, raw_fam: dict) -> dict[str, Person]:
 
         for child_id in children:
             child = persons[child_id]
+            # Respect this child's own PEDI for this specific family, if they
+            # declared one (e.g. Craster's family is Gilly's birth family,
+            # Sam's is her adoptive one — both list her as CHIL, but only one
+            # should land in parentIds).
+            pedi = "birth"
+            for entry in raw_indi.get(child_id, {}).get("famc", []):
+                if entry["id"] == fam_id:
+                    pedi = entry.get("pedi", "birth")
+                    break
+            parent_target = child.parentIds if pedi == "birth" else child.stepParentIds
             for parent_id in parents:
                 parent = persons[parent_id]
                 if child_id not in parent.childIds:
                     parent.childIds.append(child_id)
-                if parent_id not in child.parentIds:
-                    child.parentIds.append(parent_id)
+                if parent_id not in parent_target:
+                    parent_target.append(parent_id)
             for sib_id in children:
                 if sib_id != child_id and sib_id not in child.siblingIds:
                     child.siblingIds.append(sib_id)

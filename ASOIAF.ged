@@ -12,6 +12,7 @@
 2 SURN Targaryen
 1 SEX M
 1 NOTE Aegon I Targaryen, "the Conqueror." First King of the Seven Kingdoms.
+1 FAMC @F0234@
 1 FAMS @F0001@
 1 FAMS @F0002@
 
@@ -21,6 +22,7 @@
 2 SURN Targaryen
 1 SEX F
 1 NOTE Sister-wife of Aegon the Conqueror. Rider of Vhagar.
+1 FAMC @F0234@
 1 FAMS @F0001@
 
 0 @I0003@ INDI
@@ -29,6 +31,7 @@
 2 SURN Targaryen
 1 SEX F
 1 NOTE Sister-wife of Aegon the Conqueror. Rider of Meraxes.
+1 FAMC @F0234@
 1 FAMS @F0002@
 
 0 @I0004@ INDI
@@ -205,6 +208,7 @@
 1 SEX M
 1 NOTE Prince Aegon Targaryen "the Younger." Son of Rhaenyra and Daemon. Later Aegon III.
 1 FAMC @F0010@
+1 FAMS @F0235@
 1 FAMS @F0214@
 
 0 @I0024@ INDI
@@ -354,6 +358,8 @@
 1 FAMC @F0015@
 1 FAMS @F0018@
 1 FAMS @F0019@
+1 FAMS @F0241@
+1 FAMS @F0244@
 
 0 @I0042@ INDI
 1 NAME Elia /Martell/
@@ -396,6 +402,8 @@
 1 SEX M
 1 NOTE Born Aegon Targaryen VI, son of Rhaegar and Lyanna. Raised as Jon Snow, the bastard of Ned Stark. Lord Commander of the Night's Watch. King in the North. Nephew of Daenerys.
 1 FAMC @F0017@
+1 FAMS @F0241@
+1 FAMS @F0242@
 
 0 @I0047@ INDI
 1 NAME Khal /Drogo/
@@ -598,6 +606,7 @@
 1 NOTE Cersei Lannister. Daughter of Tywin. Queen of Westeros (married Robert Baratheon). Later Queen in her own right. Killed when the Red Keep collapsed.
 1 FAMC @F0061@
 1 FAMS @F0062@
+1 FAMS @F0240@
 
 0 @I0073@ INDI
 1 NAME Jaime /Lannister/
@@ -606,6 +615,7 @@
 1 SEX M
 1 NOTE Ser Jaime Lannister, "the Kingslayer." Son of Tywin. Twin of Cersei. Lord Commander of the Kingsguard. Lost his right hand. Died with Cersei in the Red Keep.
 1 FAMC @F0061@
+1 FAMS @F0240@
 
 0 @I0074@ INDI
 1 NAME Tyrion /Lannister/
@@ -615,6 +625,7 @@
 1 NOTE Tyrion Lannister, "the Imp." Son of Tywin. Dwarf. Hand of the King to Joffrey and Daenerys. Became Hand of the King to Bran Stark.
 1 FAMC @F0061@
 1 FAMS @F0053@
+1 FAMS @F0246@
 
 0 @I0075@ INDI
 1 NAME Kevan /Lannister/
@@ -768,6 +779,7 @@
 1 NOTE Lord Renly Baratheon. Youngest son of Steffon. Claimed the Iron Throne. In a relationship with Loras Tyrell. Killed by a shadow assassin sent by Stannis and Melisandre.
 1 FAMC @F0091@
 1 FAMS @F0093@
+1 FAMS @F0243@
 
 0 @I0093@ INDI
 1 NAME Selyse /Florent/
@@ -826,6 +838,7 @@
 1 NOTE Lysa Tully. Daughter of Hoster. Married Jon Arryn. Obsessively protective of Robin. Pushed through the Moon Door by Littlefinger.
 1 FAMC @F0070@
 1 FAMS @F0071@
+1 FAMS @F0247@
 
 0 @I0100@ INDI
 1 NAME Edmure /Tully/
@@ -973,6 +986,7 @@
 2 SURN Hightower
 1 SEX F
 1 NOTE Lady Alerie Hightower. Wife of Mace Tyrell.
+1 FAMC @F0213@
 1 FAMS @F0083@
 
 0 @I0118@ INDI
@@ -998,6 +1012,7 @@
 1 SEX M
 1 NOTE Ser Loras Tyrell, "the Knight of Flowers." Son of Mace. Gay; in a relationship with Renly Baratheon. Died in the wildfire explosion (show).
 1 FAMC @F0083@
+1 FAMS @F0243@
 
 0 @I0121@ INDI
 1 NAME Margaery /Tyrell/
@@ -1173,6 +1188,7 @@
 2 SURN Mormont
 1 SEX M
 1 NOTE Jeor Mormont, Lord Commander of the Night's Watch. Former Lord of Bear Island. Father of Jorah. Killed by his own men at Craster's Keep.
+1 FAMC @F0239@
 1 FAMS @F0130@
 
 0 @I0142@ INDI
@@ -1181,6 +1197,7 @@
 2 SURN Mormont
 1 SEX F
 1 NOTE Lady Maege Mormont. Sister of Jeor. Lady of Bear Island. Mother of Dacey, Lyanna, and others.
+1 FAMC @F0239@
 1 FAMS @F0131@
 
 0 @I0143@ INDI
@@ -1265,6 +1282,7 @@
 1 SEX F
 1 NOTE Gilly. Daughter (and wife) of Craster. Companion of Samwell Tarly. Mother of Little Sam.
 1 FAMC @F0142@
+1 FAMS @F0249@
 1 FAMS @F0141@
 
 0 @I0153@ INDI
@@ -1274,6 +1292,8 @@
 1 SEX M
 1 NOTE Little Sam. Son of Gilly by Craster. Raised by Samwell and Gilly as their own.
 1 FAMC @F0141@
+2 PEDI adopted
+1 FAMC @F0249@
 
 0 @I0154@ INDI
 1 NAME Craster /Craster/
@@ -1282,6 +1302,7 @@
 1 SEX M
 1 NOTE Craster. A wildling who married his own daughters and offered his sons to the White Walkers. Killed by Karl Tanner.
 1 FAMS @F0142@
+1 FAMS @F0249@
 
 0 @I0155@ INDI
 1 NAME Gregor /Clegane/
@@ -1329,6 +1350,7 @@
 2 SURN Baelish
 1 SEX M
 1 NOTE Petyr Baelish, "Littlefinger." Master of Coin on the Small Council. Orchestrated Jon Arryn's murder. Manipulator extraordinaire. Killed by Arya Stark on Sansa's order.
+1 FAMS @F0247@
 
 0 @I0161@ INDI
 1 NAME Brienne /of Tarth/
@@ -1413,6 +1435,7 @@
 2 SURN Free Folk
 1 SEX F
 1 NOTE Ygritte. A skilled wildling archer. Jon Snow's love. "You know nothing, Jon Snow." Killed by an arrow during the Battle of Castle Black.
+1 FAMS @F0242@
 
 0 @I0172@ INDI
 1 NAME Osha /Free Folk/
@@ -1434,6 +1457,7 @@
 2 SURN of Naath
 1 SEX F
 1 NOTE Missandei of Naath. Former slave, translator, and advisor to Daenerys. Executed by Cersei to provoke Daenerys.
+1 FAMS @F0245@
 
 0 @I0175@ INDI
 1 NAME Grey Worm /Unsullied/
@@ -1441,6 +1465,7 @@
 2 SURN Unsullied
 1 SEX M
 1 NOTE Grey Worm (born Torgo Nudho). Commander of the Unsullied. Lover of Missandei.
+1 FAMS @F0245@
 
 0 @I0176@ INDI
 1 NAME Barristan /Selmy/
@@ -1455,6 +1480,7 @@
 2 SURN Naharis
 1 SEX M
 1 NOTE Daario Naharis. Captain of the Second Sons sellsword company. Lover of Daenerys. Left in Meereen as regent.
+1 FAMS @F0244@
 
 0 @I0178@ INDI
 1 NAME Jaqen /H'ghar/
@@ -1535,6 +1561,7 @@
 2 SURN Shae
 1 SEX F
 1 NOTE Shae. A camp follower and prostitute. Tyrion's lover. Betrayed Tyrion in court. Killed by Tyrion.
+1 FAMS @F0246@
 
 0 @I0189@ INDI
 1 NAME Qyburn /Qyburn/
@@ -1619,6 +1646,7 @@
 1 NOTE Princess Daena Targaryen, "the Defiant." Daughter of Aegon III. Mother of Daemon Blackfyre by Aegon IV (her uncle).
 1 FAMC @F0214@
 1 FAMS @F0218@
+1 FAMS @F0248@
 
 0 @I0199@ INDI
 1 NAME Daemon /Blackfyre/
@@ -1673,6 +1701,7 @@
 2 SURN Hightower
 1 SEX M
 1 NOTE Ser Otto Hightower. Hand of the King to Viserys I (HotD). Father of Alicent Hightower. Repeatedly served and manipulated for his family's gain.
+1 FAMC @F0225@
 1 FAMS @F0210@
 
 0 @I0208@ INDI
@@ -1698,6 +1727,7 @@
 2 SURN Velaryon
 1 SEX M
 1 NOTE Lord Corlys Velaryon, "the Sea Snake." The greatest sailor in Westerosi history. Lord of Driftmark. Husband of Rhaenys Targaryen (granddaughter of Jaehaerys I). Father of Laena and Laenor.
+1 FAMC @F0237@
 1 FAMS @F0212@
 
 0 @I0211@ INDI
@@ -1706,7 +1736,7 @@
 2 SURN Targaryen
 1 SEX F
 1 NOTE Princess Rhaenys Targaryen, "the Queen Who Never Was." Granddaughter of Jaehaerys I. Rider of Meleys. Died in the Battle of Rook's Rest.
-1 FAMC @F0004@
+1 FAMC @F0236@
 1 FAMS @F0212@
 
 0 @I0212@ INDI
@@ -1715,6 +1745,7 @@
 2 SURN Hightower
 1 SEX M
 1 NOTE Lord Leyton Hightower of Oldtown. Father of Lynesse Hightower (who married Jorah Mormont).
+1 FAMC @F0233@
 1 FAMS @F0213@
 
 0 @I0213@ INDI
@@ -1796,6 +1827,7 @@
 1 SEX M
 1 NOTE Baelor I Targaryen, "the Blessed." Son of Aegon III, brother of Daeron I. A pious king who starved himself to death; later sainted by the Faith of the Seven.
 1 FAMC @F0214@
+1 FAMS @F0248@
 
 0 @I0226@ INDI
 1 NAME Melissa /Blackwood/
@@ -1819,6 +1851,7 @@
 2 SURN Martell
 1 SEX F
 1 NOTE Princess Myriah Martell of Dorne. Wife of Daeron II Targaryen; her marriage, alongside her brother Maron's marriage to Daenerys Targaryen, united Dorne with the Seven Kingdoms.
+1 FAMC @F0238@
 1 FAMS @F0201@
 
 0 @I0229@ INDI
@@ -1836,6 +1869,7 @@
 2 SURN Martell
 1 SEX M
 1 NOTE Prince Maron Martell of Dorne. Married Daenerys Targaryen, sister of Daeron II; his rule saw Dorne join the Seven Kingdoms by marriage pact rather than conquest.
+1 FAMC @F0238@
 1 FAMS @F0219@
 
 0 @I0231@ INDI
@@ -1902,6 +1936,152 @@
 1 NOTE Queen Daenaera Velaryon. Child bride and second wife of Aegon III. Mother of Daeron I, Baelor I, and Daena.
 1 FAMS @F0214@
 
+0 @I0239@ INDI
+1 NAME Hobert /Hightower/
+2 GIVN Hobert
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Hobert Hightower. Elder brother of Otto Hightower; Lord of the Hightower during the reign of Viserys I. Unnamed in the novels — named "Hobert" in House of the Dragon. Pressured Otto to back Aegon II's claim over Rhaenyra's.
+1 FAMC @F0225@
+1 FAMS @F0226@
+
+0 @I0240@ INDI
+1 NAME Ormund /Hightower/
+2 GIVN Ormund
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Ormund Hightower. Son of Hobert, nephew of Otto Hightower — making him Alicent Hightower's first cousin. Lord of the Hightower during the Dance of the Dragons; killed at the First Battle of Tumbleton in 130 AC.
+1 FAMC @F0226@
+1 FAMS @F0227@
+
+0 @I0241@ INDI
+1 NAME Lyonel /Hightower/
+2 GIVN Lyonel
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Lyonel Hightower. Eldest son of Ormund; became Lord of the Hightower at fifteen after his father's death at Tumbleton.
+1 FAMC @F0227@
+1 FAMS @F0228@
+
+0 @I0242@ INDI
+1 NAME Martyn /Hightower/
+2 GIVN Martyn
+2 SURN Hightower
+1 SEX M
+1 NOTE Ser Martyn Hightower. Second son of Ormund Hightower.
+1 FAMC @F0227@
+
+0 @I0243@ INDI
+1 NAME Garmund /Hightower/
+2 GIVN Garmund
+2 SURN Hightower
+1 SEX M
+1 NOTE Ser Garmund Hightower. Third son of Ormund Hightower.
+1 FAMC @F0227@
+
+0 @I0244@ INDI
+1 NAME Bethany /Hightower/
+2 GIVN Bethany
+2 SURN Hightower
+1 SEX F
+1 NOTE Lady Bethany Hightower. Daughter of Ormund Hightower.
+1 FAMC @F0227@
+
+0 @I0245@ INDI
+1 NAME (Lyonel to Jon) /Hightower/
+2 GIVN (Lyonel to Jon)
+2 SURN Hightower
+1 SEX M
+1 NOTE Placeholder generation(s) of unknown name and number, inferred to bridge the documented gap between Lyonel Hightower (Dance of the Dragons era) and Jon Hightower (Hand of the King under Aegon IV). House Hightower held the Lordship continuously across this span, but no source names the intervening heir(s). Not a confirmed canon character.
+1 FAMC @F0228@
+1 FAMS @F0229@
+
+0 @I0246@ INDI
+1 NAME Jon /Hightower/
+2 GIVN Jon
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Jon Hightower. Lord of the Hightower and Hand of the King in the final years of King Aegon IV's reign.
+1 FAMC @F0229@
+1 FAMS @F0230@
+
+0 @I0247@ INDI
+1 NAME (Jon to Quenton) /Hightower/
+2 GIVN (Jon to Quenton)
+2 SURN Hightower
+1 SEX M
+1 NOTE Placeholder generation(s) of unknown name and number, inferred to bridge the documented gap between Jon Hightower and Quenton Hightower. Not a confirmed canon character.
+1 FAMC @F0230@
+1 FAMS @F0231@
+
+0 @I0248@ INDI
+1 NAME Quenton /Hightower/
+2 GIVN Quenton
+2 SURN Hightower
+1 SEX M
+1 NOTE Lord Quenton Hightower. Lord of the Hightower during the reign of King Maekar I. Closed Oldtown's gates and burned the port's ships to contain the grey plague; murdered alongside his own young son by plague survivors after he lifted the quarantine.
+1 FAMC @F0231@
+1 FAMS @F0232@
+
+0 @I0249@ INDI
+1 NAME (Quenton to Leyton) /Hightower/
+2 GIVN (Quenton to Leyton)
+2 SURN Hightower
+1 SEX M
+1 NOTE Placeholder generation(s) of unknown name and number, inferred to bridge the documented gap between Quenton Hightower and Leyton Hightower. Not a confirmed canon character.
+1 FAMC @F0232@
+1 FAMS @F0233@
+
+0 @I0250@ INDI
+1 NAME Jaehaerys (son of Aegon II) /Targaryen/
+2 GIVN Jaehaerys (son of Aegon II)
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Jaehaerys Targaryen. Twin son of Aegon II and Helaena. Murdered as a child by the assassins Blood and Cheese during the Dance of the Dragons; his mother was forced to choose which of her children would die.
+1 FAMC @F0011@
+
+0 @I0251@ INDI
+1 NAME Jaehaera /Targaryen/
+2 GIVN Jaehaera
+2 SURN Targaryen
+1 SEX F
+1 NOTE Princess Jaehaera Targaryen. Twin daughter of Aegon II and Helaena. Married her first cousin Aegon III after the war as a political peace match. Died in 133 AC after falling from a window in Maegor's Holdfast, officially ruled a suicide.
+1 FAMC @F0011@
+1 FAMS @F0235@
+
+0 @I0252@ INDI
+1 NAME Maelor /Targaryen/
+2 GIVN Maelor
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Maelor Targaryen. Younger son of Aegon II and Helaena. Killed by a mob at Bitterbridge during the Dance of the Dragons; his head was sent to Queen Rhaenyra.
+1 FAMC @F0011@
+
+0 @I0253@ INDI
+1 NAME Aemon (son of Jaehaerys I) /Targaryen/
+2 GIVN Aemon (son of Jaehaerys I)
+2 SURN Targaryen
+1 SEX M
+1 NOTE Prince Aemon Targaryen. Eldest son of Jaehaerys I and Alysanne. Died before his father in 92 AC, so his younger brother Baelon was named heir instead of Aemon's daughter Rhaenys — the origin of her epithet "the Queen Who Never Was." Distinct from Maester Aemon and from Aemon the Dragonknight.
+1 FAMC @F0004@
+1 FAMS @F0236@
+
+0 @I0254@ INDI
+1 NAME Jocelyn /Baratheon/
+2 GIVN Jocelyn
+2 SURN Baratheon
+1 SEX F
+1 NOTE Lady Jocelyn Baratheon. Wife of Prince Aemon Targaryen; mother of Rhaenys, "the Queen Who Never Was."
+1 FAMS @F0236@
+
+0 @I0255@ INDI
+1 NAME Vaemond /Velaryon/
+2 GIVN Vaemond
+2 SURN Velaryon
+1 SEX M
+1 NOTE Ser Vaemond Velaryon. Younger brother of Corlys Velaryon. Publicly disputed the legitimacy of Rhaenyra's sons before King Viserys I's court; executed by Daemon Targaryen.
+1 FAMC @F0237@
+
 0 @F0001@ FAM
 1 HUSB @I0001@
 1 WIFE @I0002@
@@ -1923,7 +2103,7 @@
 1 WIFE @I0008@
 1 CHIL @I0050@
 1 CHIL @I0051@
-1 CHIL @I0211@
+1 CHIL @I0253@
 
 0 @F0005@ FAM
 1 HUSB @I0050@
@@ -1966,6 +2146,9 @@
 0 @F0011@ FAM
 1 HUSB @I0015@
 1 WIFE @I0016@
+1 CHIL @I0250@
+1 CHIL @I0251@
+1 CHIL @I0252@
 
 0 @F0012@ FAM
 1 HUSB @I0027@
@@ -2316,6 +2499,7 @@
 1 HUSB @I0212@
 1 WIFE @I0213@
 1 CHIL @I0144@
+1 CHIL @I0117@
 
 0 @F0214@ FAM
 1 HUSB @I0023@
@@ -2371,5 +2555,111 @@
 0 @F0224@ FAM
 1 HUSB @I0237@
 1 CHIL @I0063@
+
+0 @F0225@ FAM
+1 CHIL @I0207@
+1 CHIL @I0239@
+
+0 @F0226@ FAM
+1 HUSB @I0239@
+1 CHIL @I0240@
+
+0 @F0227@ FAM
+1 HUSB @I0240@
+1 CHIL @I0241@
+1 CHIL @I0242@
+1 CHIL @I0243@
+1 CHIL @I0244@
+
+0 @F0228@ FAM
+1 HUSB @I0241@
+1 CHIL @I0245@
+
+0 @F0229@ FAM
+1 HUSB @I0245@
+1 CHIL @I0246@
+
+0 @F0230@ FAM
+1 HUSB @I0246@
+1 CHIL @I0247@
+
+0 @F0231@ FAM
+1 HUSB @I0247@
+1 CHIL @I0248@
+
+0 @F0232@ FAM
+1 HUSB @I0248@
+1 CHIL @I0249@
+
+0 @F0233@ FAM
+1 HUSB @I0249@
+1 CHIL @I0212@
+
+0 @F0234@ FAM
+1 CHIL @I0001@
+1 CHIL @I0002@
+1 CHIL @I0003@
+
+0 @F0235@ FAM
+1 HUSB @I0023@
+1 WIFE @I0251@
+
+0 @F0236@ FAM
+1 HUSB @I0253@
+1 WIFE @I0254@
+1 CHIL @I0211@
+
+0 @F0237@ FAM
+1 CHIL @I0210@
+1 CHIL @I0255@
+
+0 @F0238@ FAM
+1 CHIL @I0228@
+1 CHIL @I0230@
+
+0 @F0239@ FAM
+1 CHIL @I0141@
+1 CHIL @I0142@
+
+0 @F0240@ FAM
+1 HUSB @I0073@
+1 WIFE @I0072@
+
+0 @F0241@ FAM
+1 HUSB @I0046@
+1 WIFE @I0041@
+
+0 @F0242@ FAM
+1 HUSB @I0046@
+1 WIFE @I0171@
+
+0 @F0243@ FAM
+1 HUSB @I0092@
+1 WIFE @I0120@
+
+0 @F0244@ FAM
+1 HUSB @I0177@
+1 WIFE @I0041@
+
+0 @F0245@ FAM
+1 HUSB @I0175@
+1 WIFE @I0174@
+
+0 @F0246@ FAM
+1 HUSB @I0074@
+1 WIFE @I0188@
+
+0 @F0247@ FAM
+1 HUSB @I0160@
+1 WIFE @I0099@
+
+0 @F0248@ FAM
+1 HUSB @I0225@
+1 WIFE @I0198@
+
+0 @F0249@ FAM
+1 HUSB @I0154@
+1 WIFE @I0152@
+1 CHIL @I0153@
 
 0 TRLR

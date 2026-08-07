@@ -218,8 +218,14 @@ def get_connection(
     # Detour rule: skip next_id if it is a direct neighbour of the node
     # immediately before the current one in the path — that makes the current
     # node an unnecessary intermediary (sibling→parent or parent→sibling shortcuts).
-    MAX_COLLECT    = 20
-    MAX_EXTRA_HOPS = 5
+    # Raised from 20/5/top-5 so Targaryen-style incest shows up: siblings who
+    # married each other give their descendants two equally-valid relations
+    # (e.g. first cousins *and* nephew/niece), and each generation that keeps
+    # marrying back into the family compounds the number of distinct valid
+    # paths between two people. The old caps were tuned for an ordinary tree
+    # and silently dropped those extra relationships.
+    MAX_COLLECT    = 60
+    MAX_EXTRA_HOPS = 8
     max_len        = len(shortest_raw) + MAX_EXTRA_HOPS
     all_raw: list[list[tuple[str, str | None]]] = [shortest_raw]
 
@@ -256,7 +262,7 @@ def get_connection(
 
     return ConnectionResponse(
         found=True,
-        paths=[path_to_hops(p) for p in all_raw[:5]],
+        paths=[path_to_hops(p) for p in all_raw[:12]],
     )
 
 
