@@ -104,7 +104,7 @@ export default function FindConnection() {
   const activePath = paths[pathIndex] ?? [];
 
   return (
-    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30 shrink-0 max-h-[70vh] flex flex-col overflow-hidden">
+    <div className="bg-gray-900/95 border-b border-gray-800 px-4 py-3 z-30 shrink-0 max-h-[70dvh] flex flex-col overflow-hidden">
       <div className="flex items-center gap-3 flex-wrap">
         <span className="text-gray-400 text-xs shrink-0">Find connection between</span>
 

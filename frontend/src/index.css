@@ -3,4 +3,12 @@
 @tailwind utilities;
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body, #root { width: 100%; height: 100%; overflow: hidden; }
+html, body { overflow: hidden; }
+/* position:fixed instead of height:100%+overflow:hidden: on mobile, a
+   dynamic address bar means the document can end up taller than the
+   actual visible viewport, and overflow:hidden alone doesn't reliably
+   stop touch-scroll from dragging the whole page in that state. Fixed
+   positioning pins the app to the true visual viewport regardless, so
+   only elements that explicitly opt into their own overflow-y:auto
+   (like the connection panel) can ever scroll. */
+#root { position: fixed; inset: 0; overflow: hidden; }
